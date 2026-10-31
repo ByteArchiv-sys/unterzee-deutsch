@@ -66,6 +66,15 @@ ZIP-Größe: 2.142.866 Bytes.
 
 SHA-256: `26A2F0FC149EFD3EA7B85EF2C1D2DF15F2D64CC6D4754801118FEF8CD4A684BB`
 
+Für eine unabhängige Sicherheits- und Moderationsprüfung sind die tatsächlich
+ausgelieferten Installer-/Patchskripte und Manifeste zusätzlich einzeln im
+Repository gespiegelt. Eine genaue Beschreibung der Datei- und
+Netzwerkfunktionen, Prüfsummen und Prüfschritte steht in
+[SECURITY-AND-VERIFICATION.md](SECURITY-AND-VERIFICATION.md). Hinweise zum
+Paketaufbau und zur Herkunft von Mono.Cecil stehen in
+[BUILD-AND-PACKAGE.md](BUILD-AND-PACKAGE.md). Es werden keine originalen oder
+fertig veränderten Spieldateien im Repository veröffentlicht.
+
 ## Fehler melden und mitarbeiten
 
 Für Korrekturen bitte Paketversion, Spielversion, Ort oder Ereignis,
