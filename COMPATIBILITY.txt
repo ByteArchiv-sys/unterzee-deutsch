@@ -1,0 +1,35 @@
+UNTERZEE DEUTSCH 0.99.0 – SPIELVERSION UND TESTSTAND
+Stand: 31. Oktober 2026
+
+Erstellt auf Grundlage von Sunless Sea: Zubmariner, Version 3.0.0.31,
+Steam-Ausgabe für Windows.
+
+Mit derselben Spielfassung technisch geprüft:
+- Laden des Daten-Addons in einem dokumentierten kurzen Spielstart;
+- vollständige Installation der übersetzten Daten und Oberflächentexte;
+- erneute Installation desselben Pakets;
+- Deinstallation mit Wiederherstellung der geprüften Originaldateien;
+- reine Addon-Installation ohne Veränderung von DLLs oder Ressourcen.
+Der Pakettest von 0.99.0 wurde mit Windows PowerShell durchgeführt.
+
+Die Datenprüfung umfasst 27.641 von 27.641 erfassten lokalisierbaren
+Textstellen. Das bedeutet nicht, dass jede Szene, jeder Menütext und jede
+Bildschirmauflösung vollständig im Spiel durchgespielt oder geprüft wurde.
+Sprachliche Fehler, abgeschnittene Texte und englische Restanzeigen können
+weiterhin auftreten. 0.99.0 ist deshalb eine Fassung zur Erprobung.
+
+Die mitgelieferten Installer sind für Windows vorgesehen. Die Suche nach
+Steam- und GOG-Ordnern ist keine Bestätigung, dass jede Vertriebsausgabe
+getestet wurde. GOG, andere Spielversionen, Linux, macOS und die Ausgabe
+ohne Zubmariner sind für dieses Paket nicht als getestet freigegeben.
+
+Optionale Oberflächenpatches werden nur angewendet, wenn die jeweilige
+Originaldatei genau zur erwarteten SHA-256-Prüfsumme passt. Unbekannte
+Dateien bleiben unverändert. Das allein bestätigt nicht die Kompatibilität
+des Daten-Addons mit einer anderen Spielversion. Nach einem Spielupdate
+sollte die Kompatibilität erneut geprüft werden.
+
+Bei älteren Oberflächenpatches zunächst die zugehörige Deinstallation nutzen
+und danach die neue Fassung installieren. Im reinen Addon-Modus bleiben
+einige feste Menüs, Buttons und Standardmeldungen englisch. Dieser Modus
+entfernt keine früher installierten DLL- oder Ressourcenpatches.

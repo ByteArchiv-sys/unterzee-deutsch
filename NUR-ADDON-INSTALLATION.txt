@@ -1,0 +1,41 @@
+UNTERZEE DEUTSCH – REINE ADDON-INSTALLATION
+===========================================
+
+Für eine Installation ohne Änderungen an Spieldateien:
+
+1. Das ZIP vollständig entpacken.
+2. Sunless Sea beenden.
+3. „1a - Nur Addon installieren (ohne Spieldateien).cmd“ starten.
+
+Dabei wird ausschließlich dieser eigene Mod-Ordner angelegt oder aktualisiert:
+
+%USERPROFILE%\AppData\LocalLow\Failbetter Games\Sunless Sea\addon\Unterzee-Deutsch-Start
+
+Sunless.Game.dll, FailBetter.Core.dll und resources.assets werden nicht
+verändert. Deshalb bleiben einige feste Menü- und UI-Texte englisch. Die im
+Addon enthaltenen Geschichten, Häfen, Qualitäten, Gebiete und Kartenfelder
+werden dennoch deutsch geladen.
+
+Zur Entfernung „2 - Sprachmod entfernen.cmd“ verwenden. Spielstände werden
+weder bei Installation noch bei Deinstallation verändert.
+
+Manuell kopieren (ohne Installer)
+--------------------------------
+1. ZIP vollständig entpacken und das Spiel beenden.
+2. Im entpackten Paket den Ordner „package“, darin „addon“ öffnen.
+3. Den gesamten Ordner „Unterzee-Deutsch-Start“ kopieren.
+4. Im Windows-Explorer diese Adresse in die Adressleiste einfügen:
+   %USERPROFILE%\AppData\LocalLow\Failbetter Games\Sunless Sea\addon
+   Falls „addon“ noch fehlt, diesen Ordner dort anlegen.
+5. „Unterzee-Deutsch-Start“ in „addon“ einfügen. Darin müssen unmittelbar
+   die Unterordner „entities“, „encyclopaedia“ und „geography“ liegen.
+6. Spiel starten. Eine Sprachauswahl ist nicht erforderlich.
+
+Beim manuellen Update den bisherigen Ordner „Unterzee-Deutsch-Start“ zuerst
+außerhalb von „addon“ sichern und dann durch den neuen Ordner ersetzen.
+Zur manuellen Deinstallation nur diesen Mod-Ordner aus „addon“ entfernen.
+Andere Addons und Spielstände bleiben erhalten.
+
+Dieser Weg verändert keine Programmdateien. Bereits früher installierte
+DLL- oder Ressourcenpatches werden dadurch allerdings nicht zurückgenommen;
+dafür zuerst die Deinstallation der bisherigen Vollinstallation verwenden.
