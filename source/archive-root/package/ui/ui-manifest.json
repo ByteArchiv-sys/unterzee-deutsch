@@ -1,0 +1,2136 @@
+{
+  "Name": "Unterzee-Deutsch-UI",
+  "Version": "0.8.0",
+  "GameVersion": "3.0.0.31",
+  "SourceSHA256": "E40189302338B9BDC879B8474107C5E08D66A706C6A0DCD89250106066D0FDF4",
+  "PatchedSHA256": "262C0232B93DBEC4D1814892FB70E8B76C842289CDBBF239CB952FC5CAC7D071",
+  "Verification": {
+    "Types": 1313,
+    "Methods": 6701,
+    "Instructions": 117075,
+    "ChangedStringLiterals": 353,
+    "UnchangedResources": 19,
+    "UnchangedAssemblyReferences": true
+  },
+  "Changes": [
+    {
+      "Method": "System.Void Sunless.Game.UI.Gazetteer.Gazetteer::.ctor(UnityEngine.GameObject)",
+      "Instruction": 146,
+      "English": "Story",
+      "Deutsch": "Erzählung"
+    },
+    {
+      "Method": "System.Void Sunless.Game.UI.Gazetteer.Gazetteer::.ctor(UnityEngine.GameObject)",
+      "Instruction": 156,
+      "English": "Hold",
+      "Deutsch": "Laderaum"
+    },
+    {
+      "Method": "System.Void Sunless.Game.UI.Gazetteer.Gazetteer::.ctor(UnityEngine.GameObject)",
+      "Instruction": 166,
+      "English": "Journal",
+      "Deutsch": "Tagebuch"
+    },
+    {
+      "Method": "System.Void Sunless.Game.UI.Gazetteer.Gazetteer::.ctor(UnityEngine.GameObject)",
+      "Instruction": 176,
+      "English": "Officers",
+      "Deutsch": "Offiziere"
+    },
+    {
+      "Method": "System.Void Sunless.Game.UI.Gazetteer.Gazetteer::.ctor(UnityEngine.GameObject)",
+      "Instruction": 186,
+      "English": "Shops",
+      "Deutsch": "Geschäfte"
+    },
+    {
+      "Method": "System.Void Sunless.Game.UI.Gazetteer.Gazetteer::.ctor(UnityEngine.GameObject)",
+      "Instruction": 196,
+      "English": "Shipyard",
+      "Deutsch": "Werft"
+    },
+    {
+      "Method": "System.Void Sunless.Game.UI.Journal.StoriesPanel::.ctor(Sunless.Game.UI.Gazetteer.Gazetteer,System.Collections.Generic.IEnumerable`1<System.Linq.IGrouping`2<System.String,FailBetter.Core.QAssoc.CharacterQPossession>>)",
+      "Instruction": 7,
+      "English": "Journal",
+      "Deutsch": "Tagebuch"
+    },
+    {
+      "Method": "System.Void Sunless.Game.UI.Gazetteer.Officers.AvailableOfficers::.ctor(Sunless.Game.UI.Gazetteer.Gazetteer,System.Collections.Generic.IEnumerable`1<System.Linq.IGrouping`2<FailBetter.Core.Quality,FailBetter.Core.QAssoc.CharacterQPossession>>)",
+      "Instruction": 7,
+      "English": "Available Officers",
+      "Deutsch": "Verfügbare Offiziere"
+    },
+    {
+      "Method": "System.Void Sunless.Game.UI.Gazetteer.Officers.CurrentOfficers::.ctor(Sunless.Game.UI.Gazetteer.Gazetteer,System.Collections.Generic.List`1<FailBetter.Core.QAssoc.CharacterQPossession>)",
+      "Instruction": 7,
+      "English": "Current Officers",
+      "Deutsch": "Eingesetzte Offiziere"
+    },
+    {
+      "Method": "System.Void Sunless.Game.ApplicationProviders.OfficersProvider::CreateOfficerPanel(System.Collections.Generic.IEnumerable`1<FailBetter.Core.Quality>)",
+      "Instruction": 36,
+      "English": "Available Officers",
+      "Deutsch": "Verfügbare Offiziere"
+    },
+    {
+      "Method": "System.Void Sunless.Game.ApplicationProviders.OfficersProvider::CreateOfficerPanel(System.Collections.Generic.IEnumerable`1<FailBetter.Core.Quality>)",
+      "Instruction": 37,
+      "English": "You do not have any officers!",
+      "Deutsch": "Du hast keine Offiziere!"
+    },
+    {
+      "Method": "System.Collections.Generic.Dictionary`2<System.String,System.Action> Sunless.Game.UI.Icons.OfficerIcon::GetInteractions(FailBetter.Core.Quality,System.Boolean)",
+      "Instruction": 10,
+      "English": "Unassign",
+      "Deutsch": "Vom Dienst entbinden"
+    },
+    {
+      "Method": "System.Collections.Generic.Dictionary`2<System.String,System.Action> Sunless.Game.UI.Icons.OfficerIcon::GetInteractions(FailBetter.Core.Quality,System.Boolean)",
+      "Instruction": 17,
+      "English": "Assign",
+      "Deutsch": "Einsetzen"
+    },
+    {
+      "Method": "System.Collections.Generic.Dictionary`2<System.String,System.Action> Sunless.Game.UI.Icons.OfficerIcon::GetInteractions(FailBetter.Core.Quality,System.Boolean)",
+      "Instruction": 27,
+      "English": "Speak to",
+      "Deutsch": "Ansprechen"
+    },
+    {
+      "Method": "System.String Sunless.Game.UI.Storylet.ChallengeIcon::ChallengeTooltip(FailBetter.Core.QAssoc.BranchQRequirement)",
+      "Instruction": 16,
+      "English": "Your ",
+      "Deutsch": "Dein Wert in "
+    },
+    {
+      "Method": "System.String Sunless.Game.UI.Storylet.ChallengeIcon::ChallengeTooltip(FailBetter.Core.QAssoc.BranchQRequirement)",
+      "Instruction": 34,
+      "English": " quality gives you a ",
+      "Deutsch": " gewährt dir "
+    },
+    {
+      "Method": "System.String Sunless.Game.UI.Storylet.ChallengeIcon::ChallengeTooltip(FailBetter.Core.QAssoc.BranchQRequirement)",
+      "Instruction": 43,
+      "English": "% chance of success",
+      "Deutsch": "% Erfolgschance"
+    },
+    {
+      "Method": "System.Void Sunless.Game.UI.Storylet.ChallengeIcon::ChallengeTextFor(UnityEngine.UI.Text,FailBetter.Core.QAssoc.BranchQRequirement)",
+      "Instruction": 33,
+      "English": "An almost impossible challenge",
+      "Deutsch": "Eine beinahe unmögliche Herausforderung"
+    },
+    {
+      "Method": "System.Void Sunless.Game.UI.Storylet.ChallengeIcon::ChallengeTextFor(UnityEngine.UI.Text,FailBetter.Core.QAssoc.BranchQRequirement)",
+      "Instruction": 35,
+      "English": "A matter of luck: a long shot...but you might win.",
+      "Deutsch": "Eine Glückssache: sehr unwahrscheinlich. Doch du könntest gewinnen."
+    },
+    {
+      "Method": "System.Void Sunless.Game.UI.Storylet.ChallengeIcon::ChallengeTextFor(UnityEngine.UI.Text,FailBetter.Core.QAssoc.BranchQRequirement)",
+      "Instruction": 45,
+      "English": "A matter of luck: the odds are strongly against you here.",
+      "Deutsch": "Eine Glückssache: Hier stehen die Chancen sehr schlecht."
+    },
+    {
+      "Method": "System.Void Sunless.Game.UI.Storylet.ChallengeIcon::ChallengeTextFor(UnityEngine.UI.Text,FailBetter.Core.QAssoc.BranchQRequirement)",
+      "Instruction": 47,
+      "English": "A high-risk challenge",
+      "Deutsch": "Eine höchst riskante Herausforderung"
+    },
+    {
+      "Method": "System.Void Sunless.Game.UI.Storylet.ChallengeIcon::ChallengeTextFor(UnityEngine.UI.Text,FailBetter.Core.QAssoc.BranchQRequirement)",
+      "Instruction": 57,
+      "English": "A matter of luck: the odds are against you here.",
+      "Deutsch": "Eine Glückssache: Hier stehen die Chancen gegen dich."
+    },
+    {
+      "Method": "System.Void Sunless.Game.UI.Storylet.ChallengeIcon::ChallengeTextFor(UnityEngine.UI.Text,FailBetter.Core.QAssoc.BranchQRequirement)",
+      "Instruction": 59,
+      "English": "A tough challenge",
+      "Deutsch": "Eine schwere Herausforderung"
+    },
+    {
+      "Method": "System.Void Sunless.Game.UI.Storylet.ChallengeIcon::ChallengeTextFor(UnityEngine.UI.Text,FailBetter.Core.QAssoc.BranchQRequirement)",
+      "Instruction": 69,
+      "English": "A matter of luck: it could go either way.",
+      "Deutsch": "Eine Glückssache: Es kann so oder so ausgehen."
+    },
+    {
+      "Method": "System.Void Sunless.Game.UI.Storylet.ChallengeIcon::ChallengeTextFor(UnityEngine.UI.Text,FailBetter.Core.QAssoc.BranchQRequirement)",
+      "Instruction": 71,
+      "English": "A very chancy challenge",
+      "Deutsch": "Eine sehr ungewisse Herausforderung"
+    },
+    {
+      "Method": "System.Void Sunless.Game.UI.Storylet.ChallengeIcon::ChallengeTextFor(UnityEngine.UI.Text,FailBetter.Core.QAssoc.BranchQRequirement)",
+      "Instruction": 81,
+      "English": "A matter of luck: it could go either way.",
+      "Deutsch": "Eine Glückssache: Es kann so oder so ausgehen."
+    },
+    {
+      "Method": "System.Void Sunless.Game.UI.Storylet.ChallengeIcon::ChallengeTextFor(UnityEngine.UI.Text,FailBetter.Core.QAssoc.BranchQRequirement)",
+      "Instruction": 83,
+      "English": "A chancy challenge",
+      "Deutsch": "Eine ungewisse Herausforderung"
+    },
+    {
+      "Method": "System.Void Sunless.Game.UI.Storylet.ChallengeIcon::ChallengeTextFor(UnityEngine.UI.Text,FailBetter.Core.QAssoc.BranchQRequirement)",
+      "Instruction": 93,
+      "English": "A matter of luck: pretty good odds.",
+      "Deutsch": "Eine Glückssache: Die Chancen stehen recht gut."
+    },
+    {
+      "Method": "System.Void Sunless.Game.UI.Storylet.ChallengeIcon::ChallengeTextFor(UnityEngine.UI.Text,FailBetter.Core.QAssoc.BranchQRequirement)",
+      "Instruction": 95,
+      "English": "A modest challenge",
+      "Deutsch": "Eine mäßige Herausforderung"
+    },
+    {
+      "Method": "System.Void Sunless.Game.UI.Storylet.ChallengeIcon::ChallengeTextFor(UnityEngine.UI.Text,FailBetter.Core.QAssoc.BranchQRequirement)",
+      "Instruction": 105,
+      "English": "A matter of luck: pretty good odds.",
+      "Deutsch": "Eine Glückssache: Die Chancen stehen recht gut."
+    },
+    {
+      "Method": "System.Void Sunless.Game.UI.Storylet.ChallengeIcon::ChallengeTextFor(UnityEngine.UI.Text,FailBetter.Core.QAssoc.BranchQRequirement)",
+      "Instruction": 107,
+      "English": "A very modest challenge",
+      "Deutsch": "Eine recht leichte Herausforderung"
+    },
+    {
+      "Method": "System.Void Sunless.Game.UI.Storylet.ChallengeIcon::ChallengeTextFor(UnityEngine.UI.Text,FailBetter.Core.QAssoc.BranchQRequirement)",
+      "Instruction": 117,
+      "English": "A matter of luck: how can you fail?",
+      "Deutsch": "Eine Glückssache: Wie könntest du scheitern?"
+    },
+    {
+      "Method": "System.Void Sunless.Game.UI.Storylet.ChallengeIcon::ChallengeTextFor(UnityEngine.UI.Text,FailBetter.Core.QAssoc.BranchQRequirement)",
+      "Instruction": 119,
+      "English": "A low-risk challenge",
+      "Deutsch": "Eine wenig riskante Herausforderung"
+    },
+    {
+      "Method": "System.Void Sunless.Game.UI.Storylet.ChallengeIcon::ChallengeTextFor(UnityEngine.UI.Text,FailBetter.Core.QAssoc.BranchQRequirement)",
+      "Instruction": 124,
+      "English": "A matter of luck: a sure thing. Or is it?",
+      "Deutsch": "Eine Glückssache: todsicher. Oder etwa nicht?"
+    },
+    {
+      "Method": "System.Void Sunless.Game.UI.Storylet.ChallengeIcon::ChallengeTextFor(UnityEngine.UI.Text,FailBetter.Core.QAssoc.BranchQRequirement)",
+      "Instruction": 126,
+      "English": "A straightforward challenge",
+      "Deutsch": "Eine einfache Herausforderung"
+    },
+    {
+      "Method": "System.Void Sunless.Game.UI.Icons.EquippableIcon::EquipItem()",
+      "Instruction": 21,
+      "English": "We must dock before we change the ship's equipment.",
+      "Deutsch": "Wir müssen anlegen, bevor wir die Schiffsausrüstung ändern."
+    },
+    {
+      "Method": "System.Void Sunless.Game.UI.Icons.OfficerIcon::EquipItem()",
+      "Instruction": 21,
+      "English": "We must dock before we change the ship's equipment.",
+      "Deutsch": "Wir müssen anlegen, bevor wir die Schiffsausrüstung ändern."
+    },
+    {
+      "Method": "System.Void Sunless.Game.UI.Icons.OfficerIcon::UnequipItem()",
+      "Instruction": 10,
+      "English": "We must dock before we change the ship's equipment.",
+      "Deutsch": "Wir müssen anlegen, bevor wir die Schiffsausrüstung ändern."
+    },
+    {
+      "Method": "System.Void Sunless.Game.UI.Icons.SlotIcon::UnequipItem()",
+      "Instruction": 10,
+      "English": "We must dock before we change the ship's equipment.",
+      "Deutsch": "Wir müssen anlegen, bevor wir die Schiffsausrüstung ändern."
+    },
+    {
+      "Method": "System.String Sunless.Game.UI.HUD.CrewIndicator::GetTooltip()",
+      "Instruction": 49,
+      "English": "If less than half your crew remains, you may not move at full speed.",
+      "Deutsch": "Bleibt weniger als die Hälfte deiner Mannschaft, kannst du nicht mit voller Fahrt reisen."
+    },
+    {
+      "Method": "System.String Sunless.Game.UI.HUD.CrewIndicator::GetTooltip()",
+      "Instruction": 60,
+      "English": "If less than a quarter of your crew remains, Terror increases faster.",
+      "Deutsch": "Bleibt weniger als ein Viertel deiner Mannschaft, wächst der Schrecken schneller."
+    },
+    {
+      "Method": "System.String Sunless.Game.UI.HUD.FuelBar::GetTemperatureTooltip()",
+      "Instruction": 8,
+      "English": "Engine temperature: ",
+      "Deutsch": "Maschinentemperatur: "
+    },
+    {
+      "Method": "System.String Sunless.Game.UI.HUD.FuelBar::getFuelTooltip()",
+      "Instruction": 6,
+      "English": "% fuel remaining in barrel",
+      "Deutsch": "% Brennstoff im Fass verbleibend"
+    },
+    {
+      "Method": "System.String Sunless.Game.UI.HUD.FuelBar::getFuelBarrelTooltip()",
+      "Instruction": 8,
+      "English": "Fuel barrels: ",
+      "Deutsch": "Brennstofffässer: "
+    },
+    {
+      "Method": "System.String Sunless.Game.UI.HUD.HungerBar::GetSuppliesTooltip()",
+      "Instruction": 8,
+      "English": "Supplies: ",
+      "Deutsch": "Proviant: "
+    },
+    {
+      "Method": "System.Void Sunless.Game.UI.HUD.Officers::.ctor(UnityEngine.GameObject,Sunless.Game.Entities.SunlessCharacter,System.Linq.IOrderedEnumerable`1<FailBetter.Core.QAssoc.CharacterQPossession>)",
+      "Instruction": 113,
+      "English": "Show Officers",
+      "Deutsch": "Offiziere anzeigen"
+    },
+    {
+      "Method": "System.Void Sunless.Game.UI.HUD.Officers::.ctor(UnityEngine.GameObject,Sunless.Game.Entities.SunlessCharacter,System.Linq.IOrderedEnumerable`1<FailBetter.Core.QAssoc.CharacterQPossession>)",
+      "Instruction": 138,
+      "English": "Hide Officers",
+      "Deutsch": "Offiziere verbergen"
+    },
+    {
+      "Method": "System.Void Sunless.Game.UI.HUD.Officers::OpenOfficers()",
+      "Instruction": 19,
+      "English": "Hide Officers",
+      "Deutsch": "Offiziere verbergen"
+    },
+    {
+      "Method": "System.Void Sunless.Game.UI.HUD.Officers::CloseOfficers()",
+      "Instruction": 19,
+      "English": "Show Officers",
+      "Deutsch": "Offiziere anzeigen"
+    },
+    {
+      "Method": "System.String Sunless.Game.UI.HUD.OxygenBar::GetOxygenTooltip()",
+      "Instruction": 8,
+      "English": "Oxygen: ",
+      "Deutsch": "Sauerstoff: "
+    },
+    {
+      "Method": "System.String Sunless.Game.UI.HUD.OxygenBar::GetOxygenTooltip()",
+      "Instruction": 29,
+      "English": "\n\nSurfacing will refill your Oxygen tanks",
+      "Deutsch": "\n\nBeim Auftauchen werden deine Sauerstofftanks aufgefüllt."
+    },
+    {
+      "Method": "System.Void Sunless.Game.UI.HUD.ProgressPanel::.ctor(UnityEngine.GameObject)",
+      "Instruction": 55,
+      "English": "Something awaits you in port",
+      "Deutsch": "Im Hafen erwartet dich etwas"
+    },
+    {
+      "Method": "System.String Sunless.Game.UI.HUD.ProgressPanel::GetFragmentsTooltip()",
+      "Instruction": 12,
+      "English": "Your Pages score is <b>",
+      "Deutsch": "Dein Pages-Wert beträgt <b>"
+    },
+    {
+      "Method": "System.String Sunless.Game.UI.HUD.ProgressPanel::GetFragmentsTooltip()",
+      "Instruction": 22,
+      "English": "</b>...so glean another <b>",
+      "Deutsch": "</b>. Sammle noch <b>"
+    },
+    {
+      "Method": "System.String Sunless.Game.UI.HUD.ProgressPanel::GetFragmentsTooltip()",
+      "Instruction": 31,
+      "English": "</b> Fragments to gain a Secret",
+      "Deutsch": "</b> Fragmente, um ein Geheimnis zu gewinnen."
+    },
+    {
+      "Method": "System.Void Sunless.Game.UI.HUD.RepairIndication::UpdateQuantities(System.Int32,System.Int32,System.Int32)",
+      "Instruction": 6,
+      "English": "<b>Hull:</b> ",
+      "Deutsch": "<b>Rumpf:</b> "
+    },
+    {
+      "Method": "System.Void Sunless.Game.UI.HUD.RepairIndication::UpdateQuantities(System.Int32,System.Int32,System.Int32)",
+      "Instruction": 26,
+      "English": "<b>Supplies:</b> ",
+      "Deutsch": "<b>Proviant:</b> "
+    },
+    {
+      "Method": "System.String Sunless.Game.UI.HUD.SailingHUD::GetHullText()",
+      "Instruction": 3,
+      "English": "Hull: ",
+      "Deutsch": "Rumpf: "
+    },
+    {
+      "Method": "System.String Sunless.Game.UI.HUD.SailingHUD::GetHoldTooltip()",
+      "Instruction": 8,
+      "English": "Hold capacity: ",
+      "Deutsch": "Laderaum: "
+    },
+    {
+      "Method": "System.String Sunless.Game.UI.HUD.SailingHUD::GetHullTooltip()",
+      "Instruction": 8,
+      "English": "Hull: ",
+      "Deutsch": "Rumpf: "
+    },
+    {
+      "Method": "System.Void Sunless.Game.UI.HUD.TerrorBar::Update(System.Int32,System.Single,System.Int32)",
+      "Instruction": 19,
+      "English": "Terror: ",
+      "Deutsch": "Schrecken: "
+    },
+    {
+      "Method": "UnityEngine.Color Sunless.Game.UI.HUD.TerrorBar::GetGloomBarColour(System.Int32)",
+      "Instruction": 4,
+      "English": "You are far from light or hope. Terror is increasing rapidly.",
+      "Deutsch": "Du bist fern von Licht und Hoffnung. Der Schrecken wächst rasch."
+    },
+    {
+      "Method": "UnityEngine.Color Sunless.Game.UI.HUD.TerrorBar::GetGloomBarColour(System.Int32)",
+      "Instruction": 9,
+      "English": "The zee is wide and dark. Terror is increasing.",
+      "Deutsch": "Die See ist weit und dunkel. Der Schrecken wächst."
+    },
+    {
+      "Method": "UnityEngine.Color Sunless.Game.UI.HUD.TerrorBar::GetGloomBarColour(System.Int32)",
+      "Instruction": 14,
+      "English": "The terror of the zee is less here.",
+      "Deutsch": "Die See verbreitet hier weniger Schrecken."
+    },
+    {
+      "Method": "UnityEngine.Color Sunless.Game.UI.HUD.TerrorBar::GetGloomBarColour(System.Int32)",
+      "Instruction": 19,
+      "English": "The terror of the zee is less here.",
+      "Deutsch": "Die See verbreitet hier weniger Schrecken."
+    },
+    {
+      "Method": "System.Void Sunless.Game.UI.Gazetteer.Gazetteer::SetRightTitle(System.String,System.Action)",
+      "Instruction": 40,
+      "English": "<b>Click to jettison cargo</b>",
+      "Deutsch": "<b>Klicken, um Fracht über Bord zu werfen</b>"
+    },
+    {
+      "Method": "System.Void Sunless.Game.UI.Gazetteer.Gazetteer::UpdateJettisonWidget()",
+      "Instruction": 13,
+      "English": "<b>Cargo:</b> ",
+      "Deutsch": "<b>Fracht:</b> "
+    },
+    {
+      "Method": "System.String Sunless.Game.UI.Gazetteer.Gazetteer::GetEchoTooltip()",
+      "Instruction": 27,
+      "English": "Echoes are the currency of Fallen London",
+      "Deutsch": "Echoes sind die Währung von Fallen London."
+    },
+    {
+      "Method": "System.Void Sunless.Game.Scripts.InputControls.InputProvider::BatSiginalUpdate()",
+      "Instruction": 71,
+      "English": "Clicking this will add an icon to your chart.",
+      "Deutsch": "Ein Klick markiert diesen Ort auf deiner Seekarte."
+    },
+    {
+      "Method": "Sunless.Game.Scripts.InputControls.InputProvider/BatSignalData Sunless.Game.Scripts.InputControls.InputProvider::GetSubmergedCityIndication()",
+      "Instruction": 112,
+      "English": "The sonar has picked up an underwater settlement",
+      "Deutsch": "Das Sonar hat eine Unterwassersiedlung geortet."
+    },
+    {
+      "Method": "Sunless.Game.Scripts.InputControls.InputProvider/BatSignalData Sunless.Game.Scripts.InputControls.InputProvider::GetBatSignal()",
+      "Instruction": 163,
+      "English": "(Click to mark on your chart)",
+      "Deutsch": "(Klicken, um den Ort auf deiner Seekarte zu markieren)"
+    },
+    {
+      "Method": "Sunless.Game.Scripts.InputControls.InputProvider/BatSignalData Sunless.Game.Scripts.InputControls.InputProvider::GetBatSignal()",
+      "Instruction": 195,
+      "English": "There are no islands within the zee-bat's range.",
+      "Deutsch": "Keine Insel liegt in Reichweite deiner Seefledermaus."
+    },
+    {
+      "Method": "System.String Sunless.Game.Formatters.QRequirementIconFormatters::RequirementTextFor(FailBetter.Core.QAssoc.BaseClasses.BaseQRequirement,System.Boolean,System.Nullable`1<System.Int32>,FailBetter.Core.Interfaces.IPossessesQualities)",
+      "Instruction": 93,
+      "English": " no more than ",
+      "Deutsch": " höchstens "
+    },
+    {
+      "Method": "System.String Sunless.Game.Formatters.QRequirementIconFormatters::RequirementTextFor(FailBetter.Core.QAssoc.BaseClasses.BaseQRequirement,System.Boolean,System.Nullable`1<System.Int32>,FailBetter.Core.Interfaces.IPossessesQualities)",
+      "Instruction": 129,
+      "English": " no more than ",
+      "Deutsch": " höchstens "
+    },
+    {
+      "Method": "System.String Sunless.Game.Formatters.Tooltips.CombatAttackStringFormatters::GetTooltip(Sunless.Game.Entities.Combat.CombatAttack)",
+      "Instruction": 19,
+      "English": "Hull Damage: ",
+      "Deutsch": "Rumpfschaden: "
+    },
+    {
+      "Method": "System.String Sunless.Game.Formatters.Tooltips.CombatAttackStringFormatters::GetTooltip(Sunless.Game.Entities.Combat.CombatAttack)",
+      "Instruction": 33,
+      "English": " • Life Damage: ",
+      "Deutsch": " • Lebensschaden: "
+    },
+    {
+      "Method": "System.String Sunless.Game.Formatters.Tooltips.CombatAttackStringFormatters::GetTooltip(Sunless.Game.Entities.Combat.CombatAttack)",
+      "Instruction": 51,
+      "English": "Warmup: ",
+      "Deutsch": "Vorbereitung: "
+    },
+    {
+      "Method": "System.String Sunless.Game.Formatters.Tooltips.CombatAttackStringFormatters::GetTooltip(Sunless.Game.Entities.Combat.CombatAttack)",
+      "Instruction": 71,
+      "English": " seconds",
+      "Deutsch": " Sekunden"
+    },
+    {
+      "Method": "System.String Sunless.Game.Formatters.Tooltips.CombatItemStringFormatters::GetTooltip(Sunless.Game.Entities.Combat.CombatItem,System.String)",
+      "Instruction": 56,
+      "English": "Cooldown: ",
+      "Deutsch": "Abklingzeit: "
+    },
+    {
+      "Method": "System.String Sunless.Game.Formatters.Tooltips.CombatItemStringFormatters::GetTooltip(Sunless.Game.Entities.Combat.CombatItem,System.String)",
+      "Instruction": 74,
+      "English": " seconds",
+      "Deutsch": " Sekunden"
+    },
+    {
+      "Method": "System.String Sunless.Game.Formatters.Tooltips.CombatItemStringFormatters::GetTooltip(Sunless.Game.Entities.Combat.CombatItem,System.String)",
+      "Instruction": 76,
+      "English": " second",
+      "Deutsch": " Sekunde"
+    },
+    {
+      "Method": "System.String Sunless.Game.Formatters.Tooltips.CombatItemStringFormatters::GetTooltip(Sunless.Game.Entities.Combat.CombatItem,System.String)",
+      "Instruction": 93,
+      "English": "Using this item will not consume it",
+      "Deutsch": "Dieser Gegenstand wird beim Einsatz nicht verbraucht."
+    },
+    {
+      "Method": "System.String Sunless.Game.Formatters.Tooltips.CombatItemStringFormatters::GetHullTooltip(Sunless.Game.Entities.Combat.CombatAttack,FailBetter.Core.Character)",
+      "Instruction": 6,
+      "English": "Hull Damage",
+      "Deutsch": "Rumpfschaden"
+    },
+    {
+      "Method": "System.String Sunless.Game.Formatters.Tooltips.CombatItemStringFormatters::GetHullTooltip(Sunless.Game.Entities.Combat.CombatAttack,FailBetter.Core.Character)",
+      "Instruction": 35,
+      "English": " damage ",
+      "Deutsch": " Schaden "
+    },
+    {
+      "Method": "System.String Sunless.Game.Formatters.Tooltips.CombatItemStringFormatters::GetHullTooltip(Sunless.Game.Entities.Combat.CombatAttack,FailBetter.Core.Character)",
+      "Instruction": 49,
+      "English": " bonus from your Iron stat)",
+      "Deutsch": " Bonus durch deinen Iron-Wert)"
+    },
+    {
+      "Method": "System.String Sunless.Game.Formatters.Tooltips.CombatItemStringFormatters::GetLifeTooltip(Sunless.Game.Entities.Combat.CombatAttack,FailBetter.Core.Character)",
+      "Instruction": 6,
+      "English": "Life Damage",
+      "Deutsch": "Lebensschaden"
+    },
+    {
+      "Method": "System.String Sunless.Game.Formatters.Tooltips.CombatItemStringFormatters::GetLifeTooltip(Sunless.Game.Entities.Combat.CombatAttack,FailBetter.Core.Character)",
+      "Instruction": 35,
+      "English": " damage ",
+      "Deutsch": " Schaden "
+    },
+    {
+      "Method": "System.String Sunless.Game.Formatters.Tooltips.CombatItemStringFormatters::GetLifeTooltip(Sunless.Game.Entities.Combat.CombatAttack,FailBetter.Core.Character)",
+      "Instruction": 49,
+      "English": " bonus from your Iron stat)",
+      "Deutsch": " Bonus durch deinen Iron-Wert)"
+    },
+    {
+      "Method": "System.String Sunless.Game.Formatters.Tooltips.CombatItemStringFormatters::GetCrewTooltip(Sunless.Game.Entities.Combat.CombatAttack,FailBetter.Core.Character)",
+      "Instruction": 9,
+      "English": "Crew Damage",
+      "Deutsch": "Mannschaftsschaden"
+    },
+    {
+      "Method": "System.String Sunless.Game.Formatters.Tooltips.CombatItemStringFormatters::GetCrewTooltip(Sunless.Game.Entities.Combat.CombatAttack,FailBetter.Core.Character)",
+      "Instruction": 22,
+      "English": "Does not damage crew",
+      "Deutsch": "Verursacht keinen Mannschaftsschaden."
+    },
+    {
+      "Method": "System.String Sunless.Game.Formatters.Tooltips.CombatItemStringFormatters::GetCrewTooltip(Sunless.Game.Entities.Combat.CombatAttack,FailBetter.Core.Character)",
+      "Instruction": 35,
+      "English": "Crew Damage",
+      "Deutsch": "Mannschaftsschaden"
+    },
+    {
+      "Method": "System.String Sunless.Game.Formatters.Tooltips.CombatItemStringFormatters::GetCrewTooltip(Sunless.Game.Entities.Combat.CombatAttack,FailBetter.Core.Character)",
+      "Instruction": 56,
+      "English": " crew lost each hit if opponent is below 50% hull",
+      "Deutsch": " Besatzungsmitglieder gehen je Treffer verloren, wenn der gegnerische Rumpf unter 50% liegt."
+    },
+    {
+      "Method": "System.String Sunless.Game.Formatters.Tooltips.CombatItemStringFormatters::GetTimeTooltip(Sunless.Game.Entities.Combat.CombatAttack,FailBetter.Core.Character)",
+      "Instruction": 6,
+      "English": "Warmup time",
+      "Deutsch": "Vorbereitungszeit"
+    },
+    {
+      "Method": "System.String Sunless.Game.Formatters.Tooltips.CombatItemStringFormatters::GetTimeTooltip(Sunless.Game.Entities.Combat.CombatAttack,FailBetter.Core.Character)",
+      "Instruction": 28,
+      "English": " seconds ",
+      "Deutsch": " Sekunden "
+    },
+    {
+      "Method": "System.String Sunless.Game.Formatters.Tooltips.CombatItemStringFormatters::GetTimeTooltip(Sunless.Game.Entities.Combat.CombatAttack,FailBetter.Core.Character)",
+      "Instruction": 50,
+      "English": " seconds bonus from your Mirrors stat)",
+      "Deutsch": " Sekunden Bonus durch deinen Mirrors-Wert)"
+    },
+    {
+      "Method": "System.String Sunless.Game.Formatters.Tooltips.CombatItemStringFormatters::GetStaggerTooltip(Sunless.Game.Entities.Combat.CombatAttack,FailBetter.Core.Character)",
+      "Instruction": 7,
+      "English": "Stagger Amount",
+      "Deutsch": "Verzögerung"
+    },
+    {
+      "Method": "System.String Sunless.Game.Formatters.Tooltips.CombatItemStringFormatters::GetStaggerTooltip(Sunless.Game.Entities.Combat.CombatAttack,FailBetter.Core.Character)",
+      "Instruction": 24,
+      "English": "Does not stagger opponent",
+      "Deutsch": "Verzögert den Gegner nicht."
+    },
+    {
+      "Method": "System.String Sunless.Game.Formatters.Tooltips.CombatItemStringFormatters::GetStaggerTooltip(Sunless.Game.Entities.Combat.CombatAttack,FailBetter.Core.Character)",
+      "Instruction": 38,
+      "English": " seconds knocked off your opponents firing solutions for each hit",
+      "Deutsch": " Sekunden werden je Treffer von den Feuerlösungen deines Gegners abgezogen."
+    },
+    {
+      "Method": "System.Void Sunless.Game.Formatters.RequirementIcons.QualityUnlockedWithLevelRequirementIcon::.ctor(FailBetter.Core.QAssoc.BaseClasses.BaseQRequirement,FailBetter.Core.Interfaces.IPossessesQualities)",
+      "Instruction": 7,
+      "English": "Unlocked with ",
+      "Deutsch": "Freigeschaltet mit "
+    },
+    {
+      "Method": "System.Void Sunless.Game.Formatters.RequirementIcons.QualityUnlockedWithLevelRequirementIcon::.ctor(FailBetter.Core.QAssoc.BaseClasses.BaseQRequirement,FailBetter.Core.Interfaces.IPossessesQualities)",
+      "Instruction": 26,
+      "English": " (you have ",
+      "Deutsch": " (vorhanden: "
+    },
+    {
+      "Method": "System.Void Sunless.Game.Formatters.RequirementIcons.QualityUnlockedWithoutLevelRequirementIcon::.ctor(FailBetter.Core.QAssoc.BaseClasses.BaseQRequirement,FailBetter.Core.Interfaces.IPossessesQualities)",
+      "Instruction": 7,
+      "English": "Unlocked when ",
+      "Deutsch": "Freigeschaltet, wenn "
+    },
+    {
+      "Method": "System.Void Sunless.Game.Formatters.RequirementIcons.QualityUnlockedWithoutLevelRequirementIcon::.ctor(FailBetter.Core.QAssoc.BaseClasses.BaseQRequirement,FailBetter.Core.Interfaces.IPossessesQualities)",
+      "Instruction": 12,
+      "English": " is:\n",
+      "Deutsch": " folgenden Zustand hat:\n"
+    },
+    {
+      "Method": "System.Void Sunless.Game.Formatters.RequirementIcons.StatusLockedWithLevelRequirementIcon::.ctor(FailBetter.Core.QAssoc.BaseClasses.BaseQRequirement,FailBetter.Core.Interfaces.IPossessesQualities)",
+      "Instruction": 7,
+      "English": "You need ",
+      "Deutsch": "Du benötigst "
+    },
+    {
+      "Method": "System.Void Sunless.Game.Formatters.RequirementIcons.StatusLockedWithLevelRequirementIcon::.ctor(FailBetter.Core.QAssoc.BaseClasses.BaseQRequirement,FailBetter.Core.Interfaces.IPossessesQualities)",
+      "Instruction": 26,
+      "English": " (you have ",
+      "Deutsch": " (vorhanden: "
+    },
+    {
+      "Method": "System.Void Sunless.Game.Formatters.RequirementIcons.StatusLockedWithoutLevelRequirementIcon::.ctor(FailBetter.Core.QAssoc.BaseClasses.BaseQRequirement,FailBetter.Core.Interfaces.IPossessesQualities)",
+      "Instruction": 7,
+      "English": "Unlocked when ",
+      "Deutsch": "Freigeschaltet, wenn "
+    },
+    {
+      "Method": "System.Void Sunless.Game.Formatters.RequirementIcons.StatusLockedWithoutLevelRequirementIcon::.ctor(FailBetter.Core.QAssoc.BaseClasses.BaseQRequirement,FailBetter.Core.Interfaces.IPossessesQualities)",
+      "Instruction": 12,
+      "English": " is:\n",
+      "Deutsch": " folgenden Zustand hat:\n"
+    },
+    {
+      "Method": "System.Void Sunless.Game.Formatters.RequirementIcons.ThingLockedWithLevelRequirementIcon::.ctor(FailBetter.Core.QAssoc.BaseClasses.BaseQRequirement,FailBetter.Core.Interfaces.IPossessesQualities)",
+      "Instruction": 7,
+      "English": "Unlocked with ",
+      "Deutsch": "Freigeschaltet mit "
+    },
+    {
+      "Method": "System.Void Sunless.Game.Formatters.RequirementIcons.ThingLockedWithLevelRequirementIcon::.ctor(FailBetter.Core.QAssoc.BaseClasses.BaseQRequirement,FailBetter.Core.Interfaces.IPossessesQualities)",
+      "Instruction": 26,
+      "English": " (you have ",
+      "Deutsch": " (vorhanden: "
+    },
+    {
+      "Method": "System.Void Sunless.Game.Formatters.RequirementIcons.ThingLockedWithoutLevelRequirementIcon::.ctor(FailBetter.Core.QAssoc.BaseClasses.BaseQRequirement,FailBetter.Core.Interfaces.IPossessesQualities)",
+      "Instruction": 7,
+      "English": "You need ",
+      "Deutsch": "Du benötigst "
+    },
+    {
+      "Method": "System.Void Sunless.Game.Formatters.RequirementIcons.ThingLockedWithoutLevelRequirementIcon::.ctor(FailBetter.Core.QAssoc.BaseClasses.BaseQRequirement,FailBetter.Core.Interfaces.IPossessesQualities)",
+      "Instruction": 33,
+      "English": " (you have ",
+      "Deutsch": " (vorhanden: "
+    },
+    {
+      "Method": "System.String Sunless.Game.Formatters.QIcons.QPossessionTooltipFormatter::GetQualityPossessionTooltip(FailBetter.Core.QAssoc.BaseClasses.BaseQPossession,Sunless.Game.Entities.Combat.CombatItem)",
+      "Instruction": 14,
+      "English": "Usable in combat: ",
+      "Deutsch": "Im Gefecht einsetzbar: "
+    },
+    {
+      "Method": "System.String Sunless.Game.Formatters.QIcons.QPossessionTooltipFormatter::GetQualityPossessionTooltip(FailBetter.Core.QAssoc.BaseClasses.BaseQPossession,Sunless.Game.Entities.Combat.CombatItem)",
+      "Instruction": 33,
+      "English": "Cooldown: ",
+      "Deutsch": "Abklingzeit: "
+    },
+    {
+      "Method": "System.String Sunless.Game.Formatters.QIcons.QPossessionTooltipFormatter::GetQualityPossessionTooltip(FailBetter.Core.QAssoc.BaseClasses.BaseQPossession,Sunless.Game.Entities.Combat.CombatItem)",
+      "Instruction": 47,
+      "English": " seconds",
+      "Deutsch": " Sekunden"
+    },
+    {
+      "Method": "System.String Sunless.Game.Formatters.QIcons.QPossessionTooltipFormatter::GetQualityPossessionTooltip(FailBetter.Core.QAssoc.BaseClasses.BaseQPossession,Sunless.Game.Entities.Combat.CombatAttack)",
+      "Instruction": 30,
+      "English": " WEAPON",
+      "Deutsch": " WAFFE"
+    },
+    {
+      "Method": "System.String Sunless.Game.Formatters.QIcons.QPossessionTooltipFormatter::GetQualityPossessionTooltip(FailBetter.Core.QAssoc.BaseClasses.BaseQPossession,System.Boolean)",
+      "Instruction": 144,
+      "English": "Equips to: ",
+      "Deutsch": "Dienstposten/Ausrüstungsplatz: "
+    },
+    {
+      "Method": "System.String Sunless.Game.Formatters.QIcons.QPossessionTooltipFormatter::GetQualityPossessionTooltip(FailBetter.Core.QAssoc.BaseClasses.BaseQPossession,System.Boolean)",
+      "Instruction": 175,
+      "English": "Right click to use this item",
+      "Deutsch": "Rechtsklick, um diesen Gegenstand zu benutzen."
+    },
+    {
+      "Method": "System.String Sunless.Game.Formatters.QIcons.QPossessionTooltipFormatter::GetQualityPossessionTooltip(FailBetter.Core.QAssoc.BaseClasses.BaseQPossession,System.Boolean)",
+      "Instruction": 177,
+      "English": "Right click to speak to this officer",
+      "Deutsch": "Rechtsklick, um diesen Offizier anzusprechen."
+    },
+    {
+      "Method": "System.String Sunless.Game.Formatters.QIcons.QPossessionTooltipFormatter::DescribeCombatStats(Sunless.Game.Entities.Combat.CombatAttack)",
+      "Instruction": 3,
+      "English": "Hull Damage: +",
+      "Deutsch": "Rumpfschaden: +"
+    },
+    {
+      "Method": "System.String Sunless.Game.Formatters.QIcons.QPossessionTooltipFormatter::DescribeCombatStats(Sunless.Game.Entities.Combat.CombatAttack)",
+      "Instruction": 24,
+      "English": "Life Damage: +",
+      "Deutsch": "Lebensschaden: +"
+    },
+    {
+      "Method": "System.String Sunless.Game.Formatters.QIcons.QPossessionTooltipFormatter::DescribeCombatStats(Sunless.Game.Entities.Combat.CombatAttack)",
+      "Instruction": 48,
+      "English": "Crew Damage: ",
+      "Deutsch": "Mannschaftsschaden: "
+    },
+    {
+      "Method": "System.String Sunless.Game.Formatters.QIcons.QPossessionTooltipFormatter::DescribeCombatStats(Sunless.Game.Entities.Combat.CombatAttack)",
+      "Instruction": 70,
+      "English": "Warmup Time: ",
+      "Deutsch": "Vorbereitungszeit: "
+    },
+    {
+      "Method": "System.String Sunless.Game.Formatters.QIcons.QPossessionTooltipFormatter::DescribeCombatStats(Sunless.Game.Entities.Combat.CombatAttack)",
+      "Instruction": 85,
+      "English": " seconds",
+      "Deutsch": " Sekunden"
+    },
+    {
+      "Method": "System.String Sunless.Game.Formatters.QIcons.QPossessionTooltipFormatter::DescribeCombatStats(Sunless.Game.Entities.Combat.CombatAttack)",
+      "Instruction": 101,
+      "English": "Stagger Amount: ",
+      "Deutsch": "Verzögerung: "
+    },
+    {
+      "Method": "System.String Sunless.Game.Formatters.QIcons.QPossessionTooltipFormatter::DescribeCombatStats(Sunless.Game.Entities.Combat.CombatAttack)",
+      "Instruction": 114,
+      "English": " seconds",
+      "Deutsch": " Sekunden"
+    },
+    {
+      "Method": "System.String Sunless.Game.Formatters.QIcons.QPossessionTooltipFormatter::DescribeCombatStats(Sunless.Game.Entities.Combat.CombatAttack)",
+      "Instruction": 133,
+      "English": "Costs one ",
+      "Deutsch": "Verbraucht 1 "
+    },
+    {
+      "Method": "System.String Sunless.Game.Formatters.QIcons.QPossessionTooltipFormatter::DescribeCombatStats(Sunless.Game.Entities.Combat.CombatAttack)",
+      "Instruction": 143,
+      "English": " per use",
+      "Deutsch": " je Einsatz"
+    },
+    {
+      "Method": "System.Void Sunless.Game.UI.Hold.HoldPanel::.ctor(Sunless.Game.UI.Gazetteer.Gazetteer,System.Collections.Generic.List`1<FailBetter.Core.QAssoc.CharacterQPossession>,System.Collections.Generic.List`1<FailBetter.Core.QAssoc.CharacterQPossession>)",
+      "Instruction": 7,
+      "English": "Your hold",
+      "Deutsch": "Dein Laderaum"
+    },
+    {
+      "Method": "System.Void Sunless.Game.UI.Hold.ShipLayoutPanel::.ctor(Sunless.Game.UI.Gazetteer.Gazetteer,Sunless.Game.Entities.SunlessCharacter,System.Action)",
+      "Instruction": 126,
+      "English": "Unnamed Ship",
+      "Deutsch": "Namenloses Schiff"
+    },
+    {
+      "Method": "System.Void Sunless.Game.UI.Hold.ShipLayoutPanel::.ctor(Sunless.Game.UI.Gazetteer.Gazetteer,Sunless.Game.Entities.SunlessCharacter,System.Action)",
+      "Instruction": 143,
+      "English": "Click to rename your ship",
+      "Deutsch": "Klicken, um dein Schiff umzubenennen"
+    },
+    {
+      "Method": "System.Void Sunless.Game.UI.Hold.WeaponStat::FormatHull()",
+      "Instruction": 2,
+      "English": "Hull",
+      "Deutsch": "Rumpf"
+    },
+    {
+      "Method": "System.Void Sunless.Game.UI.Hold.WeaponStat::FormatLife()",
+      "Instruction": 2,
+      "English": "Life",
+      "Deutsch": "Leben"
+    },
+    {
+      "Method": "System.Void Sunless.Game.UI.Hold.WeaponStat::FormatCrew()",
+      "Instruction": 2,
+      "English": "Crew",
+      "Deutsch": "Mannschaft"
+    },
+    {
+      "Method": "System.Void Sunless.Game.UI.Hold.WeaponStat::FormatTime()",
+      "Instruction": 2,
+      "English": "Time",
+      "Deutsch": "Zeit"
+    },
+    {
+      "Method": "System.Void Sunless.Game.UI.Hold.WeaponStat::FormatStagger()",
+      "Instruction": 2,
+      "English": "Stagger",
+      "Deutsch": "Verzögerung"
+    },
+    {
+      "Method": "System.Void Sunless.Game.UI.Shipyard.ShipPanel::.ctor(Sunless.Game.UI.Gazetteer.Gazetteer,FailBetter.Core.Quality,FailBetter.Core.Availability)",
+      "Instruction": 7,
+      "English": "Your current ship",
+      "Deutsch": "Dein derzeitiges Schiff"
+    },
+    {
+      "Method": "System.Void Sunless.Game.UI.Shipyard.ShipPanel::.ctor(UnityEngine.GameObject,FailBetter.Core.Availability)",
+      "Instruction": 39,
+      "English": "Cost:",
+      "Deutsch": "Preis:"
+    },
+    {
+      "Method": "System.Void Sunless.Game.UI.Shipyard.ShipPanel::.ctor(UnityEngine.GameObject,FailBetter.Core.Availability)",
+      "Instruction": 43,
+      "English": "Trade:",
+      "Deutsch": "Eintausch:"
+    },
+    {
+      "Method": "System.Void Sunless.Game.UI.Shipyard.ShipPanel::.ctor(UnityEngine.GameObject,FailBetter.Core.Availability)",
+      "Instruction": 47,
+      "English": "Total:",
+      "Deutsch": "Gesamt:"
+    },
+    {
+      "Method": "System.Void Sunless.Game.UI.Shipyard.ShipPanel::SetupStatHeader(System.Boolean)",
+      "Instruction": 4,
+      "English": "Detailed Information",
+      "Deutsch": "Einzelheiten"
+    },
+    {
+      "Method": "System.Void Sunless.Game.UI.Shipyard.ShipPanel::StatTableHidden()",
+      "Instruction": 5,
+      "English": "Show Detailed Information",
+      "Deutsch": "Einzelheiten anzeigen"
+    },
+    {
+      "Method": "System.Void Sunless.Game.UI.Shipyard.ShipPanel::StatTableShown()",
+      "Instruction": 5,
+      "English": "Hide Detailed Information",
+      "Deutsch": "Einzelheiten verbergen"
+    },
+    {
+      "Method": "System.Void Sunless.Game.UI.Shipyard.ShipPanel::PopulateStatFields()",
+      "Instruction": 12,
+      "English": "Hull",
+      "Deutsch": "Rumpf"
+    },
+    {
+      "Method": "System.Void Sunless.Game.UI.Shipyard.ShipPanel::PopulateStatFields()",
+      "Instruction": 22,
+      "English": "Hold Capacity",
+      "Deutsch": "Laderaum"
+    },
+    {
+      "Method": "System.Void Sunless.Game.UI.Shipyard.ShipPanel::PopulateStatFields()",
+      "Instruction": 32,
+      "English": "Weight",
+      "Deutsch": "Gewicht"
+    },
+    {
+      "Method": "System.Void Sunless.Game.UI.Shipyard.ShipPanel::PopulateStatFields()",
+      "Instruction": 42,
+      "English": "Quarters",
+      "Deutsch": "Quartiere"
+    },
+    {
+      "Method": "System.Void Sunless.Game.UI.Shipyard.ShipPanel::PopulateStatFields()",
+      "Instruction": 52,
+      "English": "Iron bonus",
+      "Deutsch": "Iron-Bonus"
+    },
+    {
+      "Method": "System.Void Sunless.Game.UI.Shipyard.ShipPanel::PopulateStatFields()",
+      "Instruction": 62,
+      "English": "Mirrors bonus",
+      "Deutsch": "Mirrors-Bonus"
+    },
+    {
+      "Method": "System.Void Sunless.Game.UI.Shipyard.ShipPanel::PopulateStatFields()",
+      "Instruction": 72,
+      "English": "Veils bonus",
+      "Deutsch": "Veils-Bonus"
+    },
+    {
+      "Method": "System.Void Sunless.Game.UI.Shipyard.ShipPanel::PopulateStatFields()",
+      "Instruction": 82,
+      "English": "Pages bonus",
+      "Deutsch": "Pages-Bonus"
+    },
+    {
+      "Method": "System.Void Sunless.Game.UI.Shipyard.ShipPanel::PopulateStatFields()",
+      "Instruction": 92,
+      "English": "Hearts bonus",
+      "Deutsch": "Hearts-Bonus"
+    },
+    {
+      "Method": "System.Void Sunless.Game.UI.Shipyard.ShipPanel::PopulateStatFields()",
+      "Instruction": 107,
+      "English": "Ship slots:",
+      "Deutsch": "Ausrüstungsplätze:"
+    },
+    {
+      "Method": "System.Void Sunless.Game.UI.Shipyard.ShipPanel::PopulateStatFields()",
+      "Instruction": 122,
+      "English": "Forward",
+      "Deutsch": "Bug"
+    },
+    {
+      "Method": "System.Void Sunless.Game.UI.Shipyard.ShipPanel::PopulateStatFields()",
+      "Instruction": 132,
+      "English": "Auxiliary",
+      "Deutsch": "Hilfsgerät"
+    },
+    {
+      "Method": "System.Void Sunless.Game.UI.Shipyard.ShipPanel::PopulateStatFields()",
+      "Instruction": 139,
+      "English": "Bridge",
+      "Deutsch": "Brücke"
+    },
+    {
+      "Method": "System.Void Sunless.Game.UI.Shipyard.ShipPanel::PopulateStatFields()",
+      "Instruction": 146,
+      "English": "Aft",
+      "Deutsch": "Heck"
+    },
+    {
+      "Method": "System.Void Sunless.Game.UI.Shipyard.ShipPanel::PopulateStatFields()",
+      "Instruction": 156,
+      "English": "Engines",
+      "Deutsch": "Maschine"
+    },
+    {
+      "Method": "System.Void Sunless.Game.UI.Shipyard.ShipShopPanel::.ctor(Sunless.Game.UI.Gazetteer.Gazetteer,System.Collections.Generic.List`1<FailBetter.Core.Availability>)",
+      "Instruction": 7,
+      "English": "Available ships",
+      "Deutsch": "Verfügbare Schiffe"
+    },
+    {
+      "Method": "System.Void Sunless.Game.ApplicationProviders.ShipyardProvider::DisplayShipyard()",
+      "Instruction": 12,
+      "English": "No Shipyard available",
+      "Deutsch": "Keine Werft verfügbar"
+    },
+    {
+      "Method": "System.Void Sunless.Game.ApplicationProviders.ShipyardProvider::DisplayShipyard()",
+      "Instruction": 13,
+      "English": "Few ports in the Unterzee sell ships. Look elsewhere.",
+      "Deutsch": "Nur wenige Häfen der Unterzee verkaufen Schiffe. Sieh dich anderswo um."
+    },
+    {
+      "Method": "System.Void Sunless.Game.ApplicationProviders.ShipyardProvider::OpenNameDialog(FailBetter.Core.QAssoc.CharacterQPossession)",
+      "Instruction": 12,
+      "English": "Give your new ship a name",
+      "Deutsch": "Gib deinem neuen Schiff einen Namen"
+    },
+    {
+      "Method": "System.Void Sunless.Game.ApplicationProviders.ShipyardProvider::OpenNameDialog(FailBetter.Core.QAssoc.CharacterQPossession)",
+      "Instruction": 16,
+      "English": "Go",
+      "Deutsch": "Weiter"
+    },
+    {
+      "Method": "System.Void Sunless.Game.UI.Exchanges.AvailabilityPanel::FormatBuyButton(System.Boolean)",
+      "Instruction": 39,
+      "English": "This will cost ",
+      "Deutsch": "Dies kostet "
+    },
+    {
+      "Method": "System.Void Sunless.Game.UI.Exchanges.AvailabilityPanel::FormatBuyButton(System.Boolean)",
+      "Instruction": 93,
+      "English": "\n\n<b>You cannot afford this!</b>",
+      "Deutsch": "\n\n<b>Das kannst du dir nicht leisten!</b>"
+    },
+    {
+      "Method": "System.Void Sunless.Game.UI.Exchanges.AvailabilityPanel::FormatBuyButton(System.Boolean)",
+      "Instruction": 110,
+      "English": "\n\n<b>You don't have enough room in your hold!</b>",
+      "Deutsch": "\n\n<b>In deinem Laderaum ist nicht genug Platz!</b>"
+    },
+    {
+      "Method": "System.Void Sunless.Game.UI.Exchanges.AvailabilityPanel::FormatBuyButton(System.Boolean)",
+      "Instruction": 125,
+      "English": "\n\n<i>Hold ",
+      "Deutsch": "\n\n<i>Halte "
+    },
+    {
+      "Method": "System.Void Sunless.Game.UI.Exchanges.AvailabilityPanel::FormatBuyButton(System.Boolean)",
+      "Instruction": 129,
+      "English": " to buy 10</i>",
+      "Deutsch": " gedrückt, um 10 zu kaufen</i>"
+    },
+    {
+      "Method": "System.Void Sunless.Game.UI.Exchanges.AvailabilityPanel::FormatSellButton(System.Boolean)",
+      "Instruction": 39,
+      "English": "This will earn you ",
+      "Deutsch": "Dies bringt dir "
+    },
+    {
+      "Method": "System.Void Sunless.Game.UI.Exchanges.AvailabilityPanel::FormatSellButton(System.Boolean)",
+      "Instruction": 87,
+      "English": "\n\n<b>You don't have enough of these!</b>",
+      "Deutsch": "\n\n<b>Davon hast du nicht genug!</b>"
+    },
+    {
+      "Method": "System.Void Sunless.Game.UI.Exchanges.AvailabilityPanel::FormatSellButton(System.Boolean)",
+      "Instruction": 102,
+      "English": "\n\n<i>Hold ",
+      "Deutsch": "\n\n<i>Halte "
+    },
+    {
+      "Method": "System.Void Sunless.Game.UI.Exchanges.AvailabilityPanel::FormatSellButton(System.Boolean)",
+      "Instruction": 106,
+      "English": " to sell 10</i>",
+      "Deutsch": " gedrückt, um 10 zu verkaufen</i>"
+    },
+    {
+      "Method": "System.Void Sunless.Game.UI.Exchanges.AvailabilityPanel::.cctor()",
+      "Instruction": 0,
+      "English": "<b>BUY</b> (1):",
+      "Deutsch": "<b>KAUFEN</b> (1):"
+    },
+    {
+      "Method": "System.Void Sunless.Game.UI.Exchanges.AvailabilityPanel::.cctor()",
+      "Instruction": 2,
+      "English": "<b>BUY</b> (10):",
+      "Deutsch": "<b>KAUFEN</b> (10):"
+    },
+    {
+      "Method": "System.Void Sunless.Game.UI.Exchanges.AvailabilityPanel::.cctor()",
+      "Instruction": 4,
+      "English": "<b>SELL</b> (1):",
+      "Deutsch": "<b>VERKAUFEN</b> (1):"
+    },
+    {
+      "Method": "System.Void Sunless.Game.UI.Exchanges.AvailabilityPanel::.cctor()",
+      "Instruction": 6,
+      "English": "<b>SELL</b> (10):",
+      "Deutsch": "<b>VERKAUFEN</b> (10):"
+    },
+    {
+      "Method": "System.Void Sunless.Game.ApplicationProviders.ExchangeProvider::DisplayExchange()",
+      "Instruction": 35,
+      "English": "No shops available",
+      "Deutsch": "Keine Geschäfte verfügbar"
+    },
+    {
+      "Method": "System.Void Sunless.Game.ApplicationProviders.ExchangeProvider::DisplayExchange()",
+      "Instruction": 36,
+      "English": "There is nothing available for you here. Perhaps once, but not now, and not for you.",
+      "Deutsch": "Hier ist nichts für dich erhältlich. Vielleicht einst, doch nicht jetzt und nicht für dich."
+    },
+    {
+      "Method": "System.Void Sunless.Game.ApplicationProviders.ExchangeProvider::Sell(FailBetter.Core.Availability)",
+      "Instruction": 30,
+      "English": "You don't have enough of these",
+      "Deutsch": "Davon hast du nicht genug"
+    },
+    {
+      "Method": "System.Void Sunless.Game.ApplicationProviders.ExchangeProvider::Buy(FailBetter.Core.Availability)",
+      "Instruction": 23,
+      "English": "You can't afford that!",
+      "Deutsch": "Das kannst du dir nicht leisten!"
+    },
+    {
+      "Method": "System.Void Sunless.Game.ApplicationProviders.HoldProvider::Assay(FailBetter.Core.QAssoc.BaseClasses.BaseQPossession,UnityEngine.Vector3)",
+      "Instruction": 12,
+      "English": "Couldn't find default exchange!",
+      "Deutsch": "Der Standardmarkt wurde nicht gefunden!"
+    },
+    {
+      "Method": "System.Void Sunless.Game.ApplicationProviders.HoldProvider::Assay(FailBetter.Core.QAssoc.BaseClasses.BaseQPossession,UnityEngine.Vector3)",
+      "Instruction": 14,
+      "English": "This cannot be sold on the London markets",
+      "Deutsch": "Dies lässt sich auf den Londoner Märkten nicht verkaufen"
+    },
+    {
+      "Method": "System.Void Sunless.Game.ApplicationProviders.HoldProvider::Assay(FailBetter.Core.QAssoc.BaseClasses.BaseQPossession,UnityEngine.Vector3)",
+      "Instruction": 36,
+      "English": "This cannot be sold on the London markets",
+      "Deutsch": "Dies lässt sich auf den Londoner Märkten nicht verkaufen"
+    },
+    {
+      "Method": "System.Void Sunless.Game.ApplicationProviders.HoldProvider::Assay(FailBetter.Core.QAssoc.BaseClasses.BaseQPossession,UnityEngine.Vector3)",
+      "Instruction": 39,
+      "English": "This would fetch {0} {1} in Fallen London",
+      "Deutsch": "Dies brächte in Fallen London {0} {1}"
+    },
+    {
+      "Method": "System.Void Sunless.Game.ApplicationProviders.HoldProvider::OpenNameDialog()",
+      "Instruction": 32,
+      "English": "Rename your ship",
+      "Deutsch": "Benenne dein Schiff um"
+    },
+    {
+      "Method": "System.Void Sunless.Game.ApplicationProviders.HoldProvider::OpenNameDialog()",
+      "Instruction": 36,
+      "English": "Go",
+      "Deutsch": "Weiter"
+    },
+    {
+      "Method": "System.Void Sunless.Game.ApplicationProviders.JournalProvider::RenderAccomplishments()",
+      "Instruction": 33,
+      "English": "'s Accomplishments",
+      "Deutsch": " – Errungenschaften"
+    },
+    {
+      "Method": "System.Void Sunless.Game.ApplicationProviders.JournalProvider::RenderAccomplishments()",
+      "Instruction": 35,
+      "English": "You don't have any accomplishments.",
+      "Deutsch": "Du hast noch keine Errungenschaften."
+    },
+    {
+      "Method": "System.Void Sunless.Game.ApplicationProviders.JournalProvider::RenderAccomplishments()",
+      "Instruction": 45,
+      "English": "'s Accomplishments",
+      "Deutsch": " – Errungenschaften"
+    },
+    {
+      "Method": "System.Void Sunless.Game.ApplicationProviders.NavigationProvider::AutoAddFuelBarrel()",
+      "Instruction": 26,
+      "English": "Our fuel reserves are empty.",
+      "Deutsch": "Unsere Brennstoffvorräte sind erschöpft."
+    },
+    {
+      "Method": "System.Void Sunless.Game.ApplicationProviders.NavigationProvider::TurboCharge()",
+      "Instruction": 17,
+      "English": "We're out of fuel!",
+      "Deutsch": "Uns ist der Brennstoff ausgegangen!"
+    },
+    {
+      "Method": "System.Void Sunless.Game.ApplicationProviders.NavigationProvider::TurboCharge()",
+      "Instruction": 32,
+      "English": "FULL POWER! (Beware: your engines will  occasionally explode.)",
+      "Deutsch": "VOLLE KRAFT! (Achtung: Bisweilen explodieren deine Maschinen.)"
+    },
+    {
+      "Method": "System.Void Sunless.Game.ApplicationProviders.NavigationProvider::ToggleShipTransform()",
+      "Instruction": 11,
+      "English": "dive",
+      "Deutsch": "abtauchen"
+    },
+    {
+      "Method": "System.Void Sunless.Game.ApplicationProviders.NavigationProvider::ToggleShipTransform()",
+      "Instruction": 13,
+      "English": "surface",
+      "Deutsch": "auftauchen"
+    },
+    {
+      "Method": "System.Void Sunless.Game.ApplicationProviders.NavigationProvider::ToggleShipTransform()",
+      "Instruction": 24,
+      "English": "You can't ",
+      "Deutsch": "Du kannst hier nicht "
+    },
+    {
+      "Method": "System.Void Sunless.Game.ApplicationProviders.NavigationProvider::ToggleShipTransform()",
+      "Instruction": 32,
+      "English": " here. Seek deeper waters.",
+      "Deutsch": ". Suche tiefere Gewässer."
+    },
+    {
+      "Method": "System.Void Sunless.Game.ApplicationProviders.NavigationProvider::FeedCrew()",
+      "Instruction": 12,
+      "English": "Fed the crew.",
+      "Deutsch": "Die Mannschaft wurde verpflegt."
+    },
+    {
+      "Method": "System.Void Sunless.Game.ApplicationProviders.NavigationProvider::OfficerReassignmentTerrorBump()",
+      "Instruction": 1,
+      "English": "The reassignment has worried the crew! Change officers in port to avoid this.",
+      "Deutsch": "Die Umbesetzung hat die Mannschaft beunruhigt! Wechsle Offiziere im Hafen, um dies zu vermeiden."
+    },
+    {
+      "Method": "System.Void Sunless.Game.ApplicationProviders.NavigationProvider::Undock(Sunless.Game.Entities.Geography.PortDatum,UnityEngine.Vector3)",
+      "Instruction": 16,
+      "English": "WHY WON'T IT WORK? ...oh, we didn't install an engine.",
+      "Deutsch": "WARUM GEHT DAS NICHT? ... ach, wir haben keine Maschine eingebaut."
+    },
+    {
+      "Method": "System.Void Sunless.Game.ApplicationProviders.NavigationProvider::ListenKeyboardEvents()",
+      "Instruction": 69,
+      "English": "dive",
+      "Deutsch": "abtauchen"
+    },
+    {
+      "Method": "System.Void Sunless.Game.ApplicationProviders.NavigationProvider::ListenKeyboardEvents()",
+      "Instruction": 71,
+      "English": "surface",
+      "Deutsch": "auftauchen"
+    },
+    {
+      "Method": "System.Void Sunless.Game.ApplicationProviders.NavigationProvider::ListenKeyboardEvents()",
+      "Instruction": 82,
+      "English": "Cannot ",
+      "Deutsch": "Im Hafen kannst du nicht "
+    },
+    {
+      "Method": "System.Void Sunless.Game.ApplicationProviders.NavigationProvider::ListenKeyboardEvents()",
+      "Instruction": 90,
+      "English": " while at Port",
+      "Deutsch": "."
+    },
+    {
+      "Method": "System.Void Sunless.Game.ApplicationProviders.NavigationProvider::ListenKeyboardEvents()",
+      "Instruction": 107,
+      "English": "diving",
+      "Deutsch": "Abtauchen"
+    },
+    {
+      "Method": "System.Void Sunless.Game.ApplicationProviders.NavigationProvider::ListenKeyboardEvents()",
+      "Instruction": 109,
+      "English": "surfacing",
+      "Deutsch": "Auftauchen"
+    },
+    {
+      "Method": "System.Void Sunless.Game.ApplicationProviders.NavigationProvider::ListenKeyboardEvents()",
+      "Instruction": 120,
+      "English": "An obstruction prevents you from ",
+      "Deutsch": "Ein Hindernis verhindert das "
+    },
+    {
+      "Method": "System.Void Sunless.Game.ApplicationProviders.NavigationProvider::ListenKeyboardEvents()",
+      "Instruction": 128,
+      "English": "! Seek clearer waters.",
+      "Deutsch": "! Suche freieres Wasser."
+    },
+    {
+      "Method": "System.Void Sunless.Game.ApplicationProviders.NavigationProvider::ListenKeyboardEvents()",
+      "Instruction": 198,
+      "English": "We're out of fuel!",
+      "Deutsch": "Uns ist der Brennstoff ausgegangen!"
+    },
+    {
+      "Method": "System.Void Sunless.Game.ApplicationProviders.NavigationProvider::ListenKeyboardEvents()",
+      "Instruction": 226,
+      "English": "We're out of fuel!",
+      "Deutsch": "Uns ist der Brennstoff ausgegangen!"
+    },
+    {
+      "Method": "System.Void Sunless.Game.ApplicationProviders.CombatProvider::SpawnBeastieExoticEffect(Sunless.Game.Entities.Beasties.SpawnedEntity)",
+      "Instruction": 70,
+      "English": " has heard your call...",
+      "Deutsch": " hat deinen Ruf vernommen ..."
+    },
+    {
+      "Method": "System.Boolean Sunless.Game.Combat.ExoticCombatEffectProcessor::RepairSmall(Sunless.Game.Combat.BaseAttackController,System.String[])",
+      "Instruction": 8,
+      "English": "The hull does not need repairing.",
+      "Deutsch": "Der Rumpf muss nicht repariert werden."
+    },
+    {
+      "Method": "System.Boolean Sunless.Game.Combat.ExoticCombatEffectProcessor::FillTargetingSolutions(Sunless.Game.Combat.BaseAttackController,System.String[])",
+      "Instruction": 16,
+      "English": "None of the weapons are functional!",
+      "Deutsch": "Keine der Waffen ist einsatzbereit!"
+    },
+    {
+      "Method": "System.Boolean Sunless.Game.Combat.ExoticCombatEffectProcessor::Lure(Sunless.Game.Combat.BaseAttackController,System.String[])",
+      "Instruction": 6,
+      "English": "You cannot use this item down here.",
+      "Deutsch": "Diesen Gegenstand kannst du hier unten nicht benutzen."
+    },
+    {
+      "Method": "System.Boolean Sunless.Game.Combat.ExoticCombatEffectProcessor::SummonBeastie(Sunless.Game.Combat.BaseAttackController,System.String[])",
+      "Instruction": 32,
+      "English": "You cannot use this item down here.",
+      "Deutsch": "Diesen Gegenstand kannst du hier unten nicht benutzen."
+    },
+    {
+      "Method": "System.Boolean Sunless.Game.Combat.ExoticCombatEffectProcessor::SummonBeastie(Sunless.Game.Combat.BaseAttackController,System.String[])",
+      "Instruction": 53,
+      "English": "You must be farther out at zee to use this...",
+      "Deutsch": "Du musst weiter draußen auf See sein, um dies zu benutzen ..."
+    },
+    {
+      "Method": "System.Void Sunless.Game.Combat.CriticalCombatAttacks::CrewDamageToPlayer()",
+      "Instruction": 4,
+      "English": "Lost ",
+      "Deutsch": "Verloren: "
+    },
+    {
+      "Method": "System.Void Sunless.Game.Combat.CriticalCombatAttacks::CrewDamageToPlayer()",
+      "Instruction": 7,
+      "English": " crew!",
+      "Deutsch": " Besatzungsmitglieder!"
+    },
+    {
+      "Method": "System.Void Sunless.Game.Combat.CriticalCombatAttacks::CrewDamageToPlayer()",
+      "Instruction": 19,
+      "English": "You've Received a Critical Hit! ",
+      "Deutsch": "Du hast einen kritischen Treffer erlitten! "
+    },
+    {
+      "Method": "System.Void Sunless.Game.Combat.CriticalCombatAttacks::CrewDamageToBeastie()",
+      "Instruction": 15,
+      "English": "Cannot inflict crew damage to ",
+      "Deutsch": "Kein Mannschaftsschaden möglich bei "
+    },
+    {
+      "Method": "System.Void Sunless.Game.Combat.CriticalCombatAttacks::CrewDamageToBeastie()",
+      "Instruction": 28,
+      "English": "Critical Hit! ",
+      "Deutsch": "Kritischer Treffer! "
+    },
+    {
+      "Method": "System.Void Sunless.Game.Combat.CriticalCombatAttacks::CrewDamageToBeastie()",
+      "Instruction": 52,
+      "English": "Inflicted ",
+      "Deutsch": "Verursacht: "
+    },
+    {
+      "Method": "System.Void Sunless.Game.Combat.CriticalCombatAttacks::CrewDamageToBeastie()",
+      "Instruction": 55,
+      "English": " crew damage!",
+      "Deutsch": " Mannschaftsschaden!"
+    },
+    {
+      "Method": "System.Void Sunless.Game.Combat.CriticalCombatAttacks::CrewDamageToBeastie()",
+      "Instruction": 76,
+      "English": "Critical Hit! ",
+      "Deutsch": "Kritischer Treffer! "
+    },
+    {
+      "Method": "System.Void Sunless.Game.Combat.CriticalCombatAttacks::MovementDebuffToBeastie()",
+      "Instruction": 0,
+      "English": "Inflicted speed debuff on ",
+      "Deutsch": "Geschwindigkeit verringert bei "
+    },
+    {
+      "Method": "System.Void Sunless.Game.Combat.CriticalCombatAttacks::MovementDebuffToBeastie()",
+      "Instruction": 16,
+      "English": "Critical Hit! ",
+      "Deutsch": "Kritischer Treffer! "
+    },
+    {
+      "Method": "System.Void Sunless.Game.Combat.BeastieAttackController::CollidedWithPlayer()",
+      "Instruction": 25,
+      "English": "Suffered ",
+      "Deutsch": "Du erleidest "
+    },
+    {
+      "Method": "System.Void Sunless.Game.Combat.BeastieAttackController::CollidedWithPlayer()",
+      "Instruction": 38,
+      "English": " damage!",
+      "Deutsch": " Schaden!"
+    },
+    {
+      "Method": "System.Void Sunless.Game.Combat.BeastieAttackController::CollidedWithPlayer()",
+      "Instruction": 115,
+      "English": "Staggered! Firing solutions have been set back.",
+      "Deutsch": "Verzögert! Die Feuerlösungen wurden zurückgeworfen."
+    },
+    {
+      "Method": "System.Void Sunless.Game.Combat.BeastieAttackController::AttackSuccess(Sunless.Game.Combat.AttackData)",
+      "Instruction": 32,
+      "English": "Suffered ",
+      "Deutsch": "Du erleidest "
+    },
+    {
+      "Method": "System.Void Sunless.Game.Combat.BeastieAttackController::AttackSuccess(Sunless.Game.Combat.AttackData)",
+      "Instruction": 41,
+      "English": " damage!",
+      "Deutsch": " Schaden!"
+    },
+    {
+      "Method": "System.Void Sunless.Game.Combat.BeastieAttackController::AttackSuccess(Sunless.Game.Combat.AttackData)",
+      "Instruction": 105,
+      "English": "Staggered! Firing solutions have been set back.",
+      "Deutsch": "Verzögert! Die Feuerlösungen wurden zurückgeworfen."
+    },
+    {
+      "Method": "System.Void Sunless.Game.Entities.Beasties.CompanionController::SpawnSonar()",
+      "Instruction": 56,
+      "English": "Something has been following us. It is patient.",
+      "Deutsch": "Etwas folgt uns. Es ist geduldig."
+    },
+    {
+      "Method": "System.Void Sunless.Game.Entities.Weather.Waxwind::OnEnter(UnityEngine.Collider2D)",
+      "Instruction": 9,
+      "English": "The killing Wax-Wind blows from the south! Engines labour: zailors cry out, and fall.",
+      "Deutsch": "Der tödliche Wax-Wind weht aus dem Süden! Die Maschinen ächzen; Zeefahrer schreien auf und stürzen."
+    },
+    {
+      "Method": "System.Void Sunless.Game.Entities.Weather.Snow::OnEnter(UnityEngine.Collider2D)",
+      "Instruction": 9,
+      "English": "Snow sweeps down from the north! The ship's engines labour against it.",
+      "Deutsch": "Schnee fegt aus dem Norden heran! Die Schiffsmaschinen mühen sich dagegen ab."
+    },
+    {
+      "Method": "System.Void Sunless.Game.Entities.Weather.Fog::OnEnter(UnityEngine.Collider2D)",
+      "Instruction": 9,
+      "English": "We have entered a fog-bank! Our gunners struggle to see our foe.",
+      "Deutsch": "Wir sind in eine Nebelbank geraten! Unsere Kanoniere können den Feind kaum erkennen."
+    },
+    {
+      "Method": "System.Void Sunless.Game.Scripts.InputControls.InputProvider::ToggleRepair()",
+      "Instruction": 21,
+      "English": "We've suffered heavy damage. We need to return to London to make repairs.",
+      "Deutsch": "Wir haben schweren Schaden erlitten. Für Reparaturen müssen wir nach London zurückkehren."
+    },
+    {
+      "Method": "System.Void Sunless.Game.Scripts.Phenomena.Physics.Barrier::OnTriggerEnter2D(UnityEngine.Collider2D)",
+      "Instruction": 21,
+      "English": "Go any further north, and ice or isolation would destroy you.",
+      "Deutsch": "Weiter im Norden würden Eis oder Einsamkeit dich vernichten."
+    },
+    {
+      "Method": "System.Void Sunless.Game.Scripts.Physics.MoveBoat::DiscoverBeastie(Sunless.Game.Scripts.AI.CombatCollision)",
+      "Instruction": 39,
+      "English": "Sighted ",
+      "Deutsch": "Gesichtet: "
+    },
+    {
+      "Method": "System.Void Sunless.Game.Scripts.Physics.MoveBoat::DiscoverBeastie(Sunless.Game.Scripts.AI.CombatCollision)",
+      "Instruction": 47,
+      "English": "Sighted ",
+      "Deutsch": "Gesichtet: "
+    },
+    {
+      "Method": "System.Void Sunless.Game.Scripts.Physics.MoveBoat::CheckFragments()",
+      "Instruction": 17,
+      "English": "You have gained a ",
+      "Deutsch": "Du hast Folgendes erhalten: "
+    },
+    {
+      "Method": "System.Void Sunless.Game.Scripts.Physics.MoveBoat::CheckFragments()",
+      "Instruction": 20,
+      "English": "! Speak to your officers to improve your abilities.",
+      "Deutsch": "! Sprich mit deinen Offizieren, um deine Fähigkeiten zu verbessern."
+    },
+    {
+      "Method": "System.Void Sunless.Game.Scripts.UI.Interactions.DragDropCombatItem::AssignSlot(System.Int32)",
+      "Instruction": 14,
+      "English": "You cannot switch item slot during combat!",
+      "Deutsch": "Im Kampf kannst du den Gegenstandsplatz nicht wechseln!"
+    },
+    {
+      "Method": "System.Void Sunless.Game.Phenomena.AdHoc.EyeOfTheUniverse::AbyssalGaze()",
+      "Instruction": 26,
+      "English": " (gained ",
+      "Deutsch": " (Schrecken +"
+    },
+    {
+      "Method": "System.Void Sunless.Game.Phenomena.AdHoc.EyeOfTheUniverse::AbyssalGaze()",
+      "Instruction": 36,
+      "English": " Terror)",
+      "Deutsch": ")"
+    },
+    {
+      "Method": "System.Void Sunless.Game.Phenomena.Physics.InteractableWitherweed::OnTriggerEnter2D(UnityEngine.Collider2D)",
+      "Instruction": 13,
+      "English": "The Witherweed damages our hull!",
+      "Deutsch": "Das Witherweed beschädigt unseren Rumpf!"
+    },
+    {
+      "Method": "System.Void Sunless.Game.Phenomena.QualityEffects.QEffectOverTime::OnTriggerStay2D(UnityEngine.Collider2D)",
+      "Instruction": 23,
+      "English": "Suffered ",
+      "Deutsch": "Du erleidest "
+    },
+    {
+      "Method": "System.Void Sunless.Game.Phenomena.QualityEffects.QEffectOverTime::OnTriggerStay2D(UnityEngine.Collider2D)",
+      "Instruction": 33,
+      "English": " damage!",
+      "Deutsch": " Schaden!"
+    },
+    {
+      "Method": "System.Void Sunless.Game.Phenomena.ShipEffects.Witherweed::OnTriggerStay2D(UnityEngine.Collider2D)",
+      "Instruction": 9,
+      "English": "Your engines slow in the Witherweed! Engines labour: zailors cry out, and fall.",
+      "Deutsch": "Deine Maschinen werden im Witherweed langsamer! Die Maschinen ächzen; Zeefahrer schreien auf und stürzen."
+    },
+    {
+      "Method": "System.Void Sunless.Game.UI.Storylet.StoryletEnd::.ctor(Sunless.Game.UI.Gazetteer.Gazetteer,Sunless.Game.ApplicationProviders.StoryletProvider/RunningStory,System.Collections.Generic.IEnumerable`1<FailBetter.Core.Result.ICoreMessage>,Sunless.Game.Entities.SunlessCharacter)",
+      "Instruction": 151,
+      "English": "Continue...",
+      "Deutsch": "Weiter ..."
+    },
+    {
+      "Method": "System.Void Sunless.Game.UI.Storylet.StoryletEnd::.ctor(Sunless.Game.UI.Gazetteer.Gazetteer,Sunless.Game.ApplicationProviders.StoryletProvider/RunningStory,System.Collections.Generic.IEnumerable`1<FailBetter.Core.Result.ICoreMessage>,Sunless.Game.Entities.SunlessCharacter)",
+      "Instruction": 211,
+      "English": "Continue...",
+      "Deutsch": "Weiter ..."
+    },
+    {
+      "Method": "System.Void Sunless.Game.UI.Storylet.StoryletEnd::CreateContinueButton()",
+      "Instruction": 5,
+      "English": "Continue...",
+      "Deutsch": "Weiter ..."
+    },
+    {
+      "Method": "System.Void Sunless.Game.Entities.StaticEntities::.cctor()",
+      "Instruction": 4,
+      "English": "Repairing your Hull at zee costs Supplies. Repairs in London are cheaper.",
+      "Deutsch": "Reparaturen am Rumpf auf See kosten Proviant. In London sind Reparaturen billiger."
+    },
+    {
+      "Method": "System.Void Sunless.Game.Entities.StaticEntities::.cctor()",
+      "Instruction": 8,
+      "English": "The Unterzee does not forgive, and it will not forgive you.",
+      "Deutsch": "Die Unterzee vergibt nicht. Und dir wird sie erst recht nicht vergeben."
+    },
+    {
+      "Method": "System.Void Sunless.Game.Entities.StaticEntities::.cctor()",
+      "Instruction": 12,
+      "English": "If your enemy is illuminated, your firing solution (the glow around a weapon button) will increase faster.",
+      "Deutsch": "Ist dein Gegner beleuchtet, wächst deine Feuerlösung – das Leuchten um den Waffenknopf – schneller."
+    },
+    {
+      "Method": "System.Void Sunless.Game.Entities.StaticEntities::.cctor()",
+      "Instruction": 16,
+      "English": "Zee-monsters will submerge (or disperse) between attacks. Catch them as they emerge!",
+      "Deutsch": "Zeebestien tauchen zwischen ihren Angriffen ab oder zerstreuen sich. Ergreife sie, sobald sie wieder auftauchen!"
+    },
+    {
+      "Method": "System.Void Sunless.Game.Entities.StaticEntities::.cctor()",
+      "Instruction": 20,
+      "English": "A menacing red exclamation mark means your enemy is about to launch an attack. Get out of range if you can!",
+      "Deutsch": "Ein bedrohliches rotes Ausrufezeichen bedeutet, dass dein Gegner gleich angreift. Raus aus seiner Reichweite – sofern du kannst!"
+    },
+    {
+      "Method": "System.Void Sunless.Game.Entities.StaticEntities::.cctor()",
+      "Instruction": 24,
+      "English": "Increase your Veils, and enemies are less likely to see you. Turn off your prow light, and you'll be stealthier still (and save fuel).",
+      "Deutsch": "Erhöhe Veils, damit Feinde dich schwerer entdecken. Löschst du das Buglicht, wirst du noch verstohlener – und sparst Brennstoff."
+    },
+    {
+      "Method": "System.Void Sunless.Game.Entities.StaticEntities::.cctor()",
+      "Instruction": 28,
+      "English": "Lifebergs cannot submerge. But if their charge strikes you, you'll know about it.",
+      "Deutsch": "Lifebergs können nicht abtauchen. Trifft dich jedoch ihr Ansturm, wirst du es merken."
+    },
+    {
+      "Method": "System.Void Sunless.Game.Entities.StaticEntities::.cctor()",
+      "Instruction": 32,
+      "English": "When your firing solution (the glow around your weapon button) is orange, your enemy is not illuminated. When they are illuminated, it's green, and increases faster.",
+      "Deutsch": "Leuchtet deine Feuerlösung orange, ist der Gegner unbeleuchtet. Ist er beleuchtet, wird sie grün und wächst schneller."
+    },
+    {
+      "Method": "System.Void Sunless.Game.Entities.StaticEntities::.cctor()",
+      "Instruction": 36,
+      "English": "Click an enemy to target it. Make sure it's in your weapons arc, and your firing solution (the glow around the button) will increase.",
+      "Deutsch": "Klicke auf einen Gegner, um ihn als Ziel zu wählen. Liegt er im Feuerbogen deiner Waffe, wächst die Feuerlösung – das Leuchten um den Knopf."
+    },
+    {
+      "Method": "System.Void Sunless.Game.Entities.StaticEntities::.cctor()",
+      "Instruction": 40,
+      "English": "All ships mount deck weapons with a wide arc. Some ships mount limited, but powerful, forward weapons as well.",
+      "Deutsch": "Alle Schiffe führen Deckgeschütze mit weitem Feuerbogen. Manche besitzen außerdem eingeschränkte, doch mächtige Bugwaffen."
+    },
+    {
+      "Method": "System.Void Sunless.Game.Entities.StaticEntities::.cctor()",
+      "Instruction": 44,
+      "English": "You can't fire through islands. Especially if someone's living on them. How could you?",
+      "Deutsch": "Du kannst nicht durch Inseln schießen. Erst recht nicht, wenn dort jemand wohnt. Wie solltest du auch?"
+    },
+    {
+      "Method": "System.Void Sunless.Game.Entities.StaticEntities::.cctor()",
+      "Instruction": 48,
+      "English": "Leaving your prow light on reduces terror, but makes you more visible to enemies and burns fuel faster.",
+      "Deutsch": "Ein eingeschaltetes Buglicht lindert den Schrecken, macht dich jedoch für Feinde sichtbarer und verbraucht mehr Brennstoff."
+    },
+    {
+      "Method": "System.Void Sunless.Game.Entities.StaticEntities::.cctor()",
+      "Instruction": 52,
+      "English": "Most enemies can't launch attacks if you're behind them.",
+      "Deutsch": "Die meisten Gegner können dich nicht angreifen, wenn du hinter ihnen bist."
+    },
+    {
+      "Method": "System.Void Sunless.Game.Entities.StaticEntities::.cctor()",
+      "Instruction": 56,
+      "English": "Without fuel, neither your engines or your prow-lamps will function",
+      "Deutsch": "Ohne Brennstoff funktionieren weder deine Maschinen noch dein Buglicht."
+    },
+    {
+      "Method": "System.Void Sunless.Game.Entities.StaticEntities::.cctor()",
+      "Instruction": 60,
+      "English": "You can launch an attack before you have a complete firing solution - but you may miss.",
+      "Deutsch": "Du kannst angreifen, bevor deine Feuerlösung vollständig ist – doch du könntest verfehlen."
+    },
+    {
+      "Method": "System.Void Sunless.Game.Entities.StaticEntities::.cctor()",
+      "Instruction": 64,
+      "English": "Everything begins and ends in Fallen London. Return there to find new officers and stories.",
+      "Deutsch": "Alles beginnt und endet in Fallen London. Kehre zurück, um neue Offiziere und Geschichten zu finden."
+    },
+    {
+      "Method": "System.Void Sunless.Game.Entities.StaticEntities::.cctor()",
+      "Instruction": 68,
+      "English": "Having trouble earning cash? Try working with the Admiralty.",
+      "Deutsch": "Geldnöte? Versuche, für die Admiralität zu arbeiten."
+    },
+    {
+      "Method": "System.Void Sunless.Game.Entities.StaticEntities::.cctor()",
+      "Instruction": 72,
+      "English": "Having trouble earning cash? Try the quests at Venderbight, or the Principles of Coral.",
+      "Deutsch": "Geldnöte? Versuche dich an den Aufträgen in Venderbight oder bei den Principles of Coral."
+    },
+    {
+      "Method": "System.Void Sunless.Game.Entities.StaticEntities::.cctor()",
+      "Instruction": 76,
+      "English": "Your crew's Hunger will be reduced automatically, as long as you have Supplies. When you run out of Supplies, your crew will suffer.",
+      "Deutsch": "Der Hunger deiner Mannschaft wird automatisch gestillt, solange du Proviant besitzt. Geht er aus, wird deine Mannschaft leiden."
+    },
+    {
+      "Method": "System.Void Sunless.Game.Entities.StaticEntities::.cctor()",
+      "Instruction": 80,
+      "English": "Long periods at zee will drive your crew, and you, insane with fear. Leaving the lights on will help, although it will burn fuel faster.",
+      "Deutsch": "Lange Zeit auf See treibt deine Mannschaft – und dich – vor Angst in den Wahnsinn. Eingeschaltete Lichter helfen, verbrauchen aber mehr Brennstoff."
+    },
+    {
+      "Method": "System.Void Sunless.Game.Entities.StaticEntities::.cctor()",
+      "Instruction": 84,
+      "English": "If your Crew reaches 0, you too are dead.",
+      "Deutsch": "Sinkt deine Mannschaft auf 0, bist auch du tot."
+    },
+    {
+      "Method": "System.Void Sunless.Game.Entities.StaticEntities::.cctor()",
+      "Instruction": 88,
+      "English": "If your Hull reaches 0, your ship will sink.",
+      "Deutsch": "Sinkt dein Rumpf auf 0, sinkt auch dein Schiff."
+    },
+    {
+      "Method": "System.Void Sunless.Game.Entities.StaticEntities::.cctor()",
+      "Instruction": 92,
+      "English": "Upgrade your Lodgings and create a Will, and you can pass on resources to your heirs. Not that they'll appreciate it.",
+      "Deutsch": "Verbessere deine Unterkunft und errichte ein Testament, um deinen Erben Mittel zu hinterlassen. Nicht, dass sie es würdigen würden."
+    },
+    {
+      "Method": "System.Void Sunless.Game.Entities.StaticEntities::.cctor()",
+      "Instruction": 96,
+      "English": "Flensing weapons are better against sea-monsters; cannons are better against ships.",
+      "Deutsch": "Flensingwaffen eignen sich besser gegen Zeebestien; Kanonen besser gegen Schiffe."
+    },
+    {
+      "Method": "System.Void Sunless.Game.Entities.StaticEntities::.cctor()",
+      "Instruction": 100,
+      "English": "The New Khanate is locked in civil war: Khan's Heart is the enemy of Khan's Shadow.",
+      "Deutsch": "Das Neue Khanat liegt im Bürgerkrieg: Khan's Heart ist der Feind von Khan's Shadow."
+    },
+    {
+      "Method": "System.Void Sunless.Game.Entities.StaticEntities::.cctor()",
+      "Instruction": 104,
+      "English": "You can fire before your firing solution is complete - but you may miss.",
+      "Deutsch": "Du kannst feuern, bevor deine Feuerlösung vollständig ist – doch du könntest verfehlen."
+    },
+    {
+      "Method": "System.Void Sunless.Game.Entities.StaticEntities::.cctor()",
+      "Instruction": 108,
+      "English": "It is difficult for a small trader to make money on the open market. Look for story events to gain cargo cheaply.",
+      "Deutsch": "Für einen kleinen Händler ist auf dem freien Markt kaum Geld zu verdienen. Suche in Geschichten nach Gelegenheiten, günstig an Fracht zu gelangen."
+    },
+    {
+      "Method": "System.Void Sunless.Game.Entities.StaticEntities::.cctor()",
+      "Instruction": 112,
+      "English": "In the Iron Republic, the red night favours the smokes of mind. Eat rain!",
+      "Deutsch": "In der Iron Republic begünstigt die rote Nacht die Dünste des Geistes. Iss Regen!"
+    },
+    {
+      "Method": "System.Void Sunless.Game.Entities.StaticEntities::.cctor()",
+      "Instruction": 116,
+      "English": "Parabola-Linen comes from a place behind mirrors.",
+      "Deutsch": "Parabola-Leinen stammt von einem Ort hinter den Spiegeln."
+    },
+    {
+      "Method": "System.Void Sunless.Game.Entities.StaticEntities::.cctor()",
+      "Instruction": 120,
+      "English": "You can sell Tomb-Colonists at the tomb-colonies. This isn't slavery: they're tipping you.",
+      "Deutsch": "Du kannst Grabkolonisten in den Grabkolonien absetzen. Das ist keine Sklaverei: Sie geben dir Trinkgeld."
+    },
+    {
+      "Method": "System.Void Sunless.Game.Entities.StaticEntities::.cctor()",
+      "Instruction": 124,
+      "English": "There is truth in dreams, but also danger.",
+      "Deutsch": "In Träumen liegt Wahrheit – doch auch Gefahr."
+    },
+    {
+      "Method": "System.Void Sunless.Game.Entities.StaticEntities::.cctor()",
+      "Instruction": 128,
+      "English": "Ah, the lights of London! If your Terror is over 50, and you have Something Awaits You, returning home will reduce Terror.",
+      "Deutsch": "Ah, die Lichter Londons! Liegt dein Schrecken über 50 und erwartet dich etwas, wird die Heimkehr ihn lindern."
+    },
+    {
+      "Method": "System.Void Sunless.Game.Entities.StaticEntities::.cctor()",
+      "Instruction": 132,
+      "English": "The Principles of Coral enjoys a nice game of chess.",
+      "Deutsch": "In den Principles of Coral schätzt man eine hübsche Partie Schach."
+    },
+    {
+      "Method": "System.Void Sunless.Game.Entities.StaticEntities::.cctor()",
+      "Instruction": 136,
+      "English": "You've lived too long underground to survive on the Surface for long - but you can return there briefly.",
+      "Deutsch": "Du hast zu lange unter der Erde gelebt, um lange an der Oberfläche zu überleben – doch für kurze Zeit kannst du dorthin zurückkehren."
+    },
+    {
+      "Method": "System.Void Sunless.Game.Entities.StaticEntities::.cctor()",
+      "Instruction": 140,
+      "English": "The greater your Engine Power, the faster your ship will go but the more fuel it will consume. The greater your Weight, the slower you'll travel.",
+      "Deutsch": "Je höher deine Maschinenleistung, desto schneller fährt dein Schiff – und desto mehr Brennstoff verbraucht es. Je höher das Gewicht, desto langsamer die Fahrt."
+    },
+    {
+      "Method": "System.Void Sunless.Game.Entities.StaticEntities::.cctor()",
+      "Instruction": 144,
+      "English": "Most ship's equipment uses up Hold space when it's not equipped.",
+      "Deutsch": "Die meiste Schiffsausrüstung beansprucht Platz im Laderaum, solange sie nicht ausgerüstet ist."
+    },
+    {
+      "Method": "System.Void Sunless.Game.Entities.StaticEntities::.cctor()",
+      "Instruction": 148,
+      "English": "Your engines run faster at [F]ull Power! - and occasionally explode, to sadly comic effect",
+      "Deutsch": "Mit [F]uller Kraft laufen deine Maschinen schneller! – und explodieren bisweilen, mit betrüblich komischer Wirkung."
+    },
+    {
+      "Method": "System.Void Sunless.Game.Entities.StaticEntities::.cctor()",
+      "Instruction": 152,
+      "English": "The North of the Unterzee is walled with ice.",
+      "Deutsch": "Der Norden der Unterzee ist von Eis ummauert."
+    },
+    {
+      "Method": "System.Void Sunless.Game.Entities.StaticEntities::.cctor()",
+      "Instruction": 156,
+      "English": "Fallen London fills out the backstory of Sunless Sea, and occasionally unlocks stories. It also has kittens.",
+      "Deutsch": "Fallen London vertieft die Vorgeschichte von Sunless Sea und schaltet bisweilen Geschichten frei. Außerdem gibt es dort Kätzchen."
+    },
+    {
+      "Method": "System.Void Sunless.Game.Entities.StaticEntities::.cctor()",
+      "Instruction": 160,
+      "English": "The Khanate is full of foreigners, who inexplicably consider Londoners foreign. Don't trust them.",
+      "Deutsch": "Das Khanat ist voller Fremder, die Londoner unerklärlicherweise für fremd halten. Traue ihnen nicht."
+    },
+    {
+      "Method": "System.Void Sunless.Game.Entities.StaticEntities::.cctor()",
+      "Instruction": 164,
+      "English": "The Traitor Empress is more properly referred to as 'Her Enduring Majesty'.",
+      "Deutsch": "Die Verräterkaiserin wird korrekterweise als »Ihre Beständige Majestät« bezeichnet."
+    },
+    {
+      "Method": "System.Void Sunless.Game.Entities.StaticEntities::.cctor()",
+      "Instruction": 168,
+      "English": "Strange Catches can be used to bring zee-monsters to the surface.",
+      "Deutsch": "Seltsame Fänge können Zeebestien an die Oberfläche locken."
+    },
+    {
+      "Method": "System.Void Sunless.Game.Entities.StaticEntities::.cctor()",
+      "Instruction": 172,
+      "English": "Your prow light reveals zeemarks, helps with Terror, and illuminates monsters - but costs fuel.",
+      "Deutsch": "Dein Buglicht enthüllt Zeemarken, lindert Schrecken und beleuchtet Ungeheuer – kostet jedoch Brennstoff."
+    },
+    {
+      "Method": "System.Void Sunless.Game.Entities.StaticEntities::.cctor()",
+      "Instruction": 176,
+      "English": "A Pneumatic Ratsender can assist with battle repairs.",
+      "Deutsch": "Ein Rattus-Faber-Helfer kann bei Gefechtsreparaturen helfen."
+    },
+    {
+      "Method": "System.Void Sunless.Game.Entities.StaticEntities::.cctor()",
+      "Instruction": 180,
+      "English": "Once you have acquired a zubmarine, each new captain will inherit the ability to transform their ship.",
+      "Deutsch": "Hast du einmal eine Zubmarine erworben, erbt jeder neue Kapitän die Fähigkeit, sein Schiff zu verwandeln."
+    },
+    {
+      "Method": "System.Void Sunless.Game.Entities.StaticEntities::.cctor()",
+      "Instruction": 184,
+      "English": "Your sonar will illuminate interesting objects on the zeebed.",
+      "Deutsch": "Dein Sonar beleuchtet interessante Dinge auf dem Zeegrund."
+    },
+    {
+      "Method": "System.Void Sunless.Game.Entities.StaticEntities::.cctor()",
+      "Instruction": 188,
+      "English": "Your sonar will indicate the direction of any ports nearby.",
+      "Deutsch": "Dein Sonar zeigt die Richtung naher Häfen an."
+    },
+    {
+      "Method": "System.Void Sunless.Game.Entities.StaticEntities::.cctor()",
+      "Instruction": 192,
+      "English": "The zee-bat is able to detect underwater settlements nearby. Be sure to dive below and look for them.",
+      "Deutsch": "Die Seefledermaus kann nahe Unterwassersiedlungen erspüren. Tauche ab und halte nach ihnen Ausschau."
+    },
+    {
+      "Method": "System.Void Sunless.Game.Entities.StaticEntities::.cctor()",
+      "Instruction": 196,
+      "English": "Be careful when diving with high Terror. There are creatures that can smell a zailor's fear.",
+      "Deutsch": "Sei vorsichtig, wenn du mit hohem Schrecken abtauchst. Manche Kreaturen können die Angst eines Zeefahrers riechen."
+    },
+    {
+      "Method": "System.Void Sunless.Game.UI.Storylet.StoryletIn::.ctor(Sunless.Game.UI.Gazetteer.Gazetteer,FailBetter.Core.Event)",
+      "Instruction": 20,
+      "English": "Perhaps Not",
+      "Deutsch": "Lieber nicht"
+    },
+    {
+      "Method": "System.Void Sunless.Game.UI.Storylet.ChallengeIcon::ChallengeTextFor(UnityEngine.UI.Text,FailBetter.Core.QAssoc.BranchQRequirement)",
+      "Instruction": 15,
+      "English": "Luck",
+      "Deutsch": "Glück"
+    },
+    {
+      "Method": "System.Void Sunless.Game.UI.Storylet.StoryletEnd::CreateContinueButton()",
+      "Instruction": 12,
+      "English": "Close Gazetteer",
+      "Deutsch": "Bordalmanach schließen"
+    },
+    {
+      "Method": "System.Void Sunless.Game.UI.Officers.AvatarAndNamePanel::Accept()",
+      "Instruction": 8,
+      "English": "You must enter a name",
+      "Deutsch": "Du musst einen Namen eingeben"
+    },
+    {
+      "Method": "System.Void Sunless.Game.UI.Officers.AvatarAndNamePanel::Accept()",
+      "Instruction": 9,
+      "English": "Only the gods of the deep zee are nameless.",
+      "Deutsch": "Nur die Götter der tiefen Zee sind namenlos."
+    },
+    {
+      "Method": "System.Collections.Generic.Dictionary`2<System.String,System.Action> Sunless.Game.UI.Icons.CombatItemIcon::GetInteractions(FailBetter.Core.Quality,System.Boolean)",
+      "Instruction": 10,
+      "English": "Assay",
+      "Deutsch": "Wert schätzen"
+    },
+    {
+      "Method": "System.Collections.Generic.Dictionary`2<System.String,System.Action> Sunless.Game.UI.Icons.CombatItemIcon::GetInteractions(FailBetter.Core.Quality,System.Boolean)",
+      "Instruction": 27,
+      "English": "Use",
+      "Deutsch": "Benutzen"
+    },
+    {
+      "Method": "System.Collections.Generic.Dictionary`2<System.String,System.Action> Sunless.Game.UI.Icons.EquippableIcon::GetInteractions(FailBetter.Core.Quality,System.Boolean)",
+      "Instruction": 10,
+      "English": "Assay",
+      "Deutsch": "Wert schätzen"
+    },
+    {
+      "Method": "System.Collections.Generic.Dictionary`2<System.String,System.Action> Sunless.Game.UI.Icons.EquippableIcon::GetInteractions(FailBetter.Core.Quality,System.Boolean)",
+      "Instruction": 25,
+      "English": "Fit to Slot",
+      "Deutsch": "Ausrüsten"
+    },
+    {
+      "Method": "System.Collections.Generic.Dictionary`2<System.String,System.Action> Sunless.Game.UI.Icons.EquippableIcon::GetInteractions(FailBetter.Core.Quality,System.Boolean)",
+      "Instruction": 35,
+      "English": "Use",
+      "Deutsch": "Benutzen"
+    },
+    {
+      "Method": "System.Collections.Generic.Dictionary`2<System.String,System.Action> Sunless.Game.UI.Icons.SlotIcon::GetInteractions(FailBetter.Core.Quality,System.Boolean)",
+      "Instruction": 16,
+      "English": "Unequip",
+      "Deutsch": "Ablegen"
+    },
+    {
+      "Method": "System.Collections.Generic.Dictionary`2<System.String,System.Action> Sunless.Game.UI.Icons.SlotIcon::GetInteractions(FailBetter.Core.Quality,System.Boolean)",
+      "Instruction": 26,
+      "English": "Use",
+      "Deutsch": "Benutzen"
+    },
+    {
+      "Method": "System.Collections.Generic.Dictionary`2<System.String,System.Action> Sunless.Game.UI.Icons.ThingIcon::GetInteractions(FailBetter.Core.Quality,System.Boolean)",
+      "Instruction": 10,
+      "English": "Assay",
+      "Deutsch": "Wert schätzen"
+    },
+    {
+      "Method": "System.Collections.Generic.Dictionary`2<System.String,System.Action> Sunless.Game.UI.Icons.ThingIcon::GetInteractions(FailBetter.Core.Quality,System.Boolean)",
+      "Instruction": 27,
+      "English": "Use",
+      "Deutsch": "Benutzen"
+    },
+    {
+      "Method": "System.String Sunless.Game.Scripts.Physics.MoveBoat::MessageWithFragments(System.String,System.Int32)",
+      "Instruction": 17,
+      "English": " fragments gained)</b>",
+      "Deutsch": " Fragmente erhalten)</b>"
+    },
+    {
+      "Method": "System.String Sunless.Game.Phenomena.AdHoc.ExplosiveMine::GetMessage()",
+      "Instruction": 6,
+      "English": "Suffered ",
+      "Deutsch": "Du erleidest "
+    },
+    {
+      "Method": "System.String Sunless.Game.Phenomena.AdHoc.ExplosiveMine::GetMessage()",
+      "Instruction": 15,
+      "English": " damage!",
+      "Deutsch": " Schaden!"
+    },
+    {
+      "Method": "Sunless.Game.Scripts.InputControls.InputProvider/BatSignalData Sunless.Game.Scripts.InputControls.InputProvider::GetBatSignal()",
+      "Instruction": 106,
+      "English": "There is something underwater",
+      "Deutsch": "Unter Wasser befindet sich etwas"
+    },
+    {
+      "Method": "System.String Sunless.Game.Scripts.InputControls.InputProvider::GetFuzzyDistance(System.Single)",
+      "Instruction": 3,
+      "English": "close by",
+      "Deutsch": "ganz in der Nähe"
+    },
+    {
+      "Method": "System.String Sunless.Game.Scripts.InputControls.InputProvider::GetFuzzyDistance(System.Single)",
+      "Instruction": 8,
+      "English": "some distance",
+      "Deutsch": "in einiger Entfernung"
+    },
+    {
+      "Method": "System.String Sunless.Game.Scripts.InputControls.InputProvider::GetFuzzyDistance(System.Single)",
+      "Instruction": 10,
+      "English": "a long way",
+      "Deutsch": "weit entfernt"
+    },
+    {
+      "Method": "System.Void Sunless.Game.UI.Gazetteer.JettisonDialog::.ctor(UnityEngine.GameObject,Sunless.Game.Entities.SunlessCharacter,System.Action)",
+      "Instruction": 70,
+      "English": " + Click for stacks of 10)",
+      "Deutsch": " + Klicken für Stapel zu 10)"
+    },
+    {
+      "Method": "System.Void Sunless.Game.UI.Gazetteer.JettisonDialog::.ctor(UnityEngine.GameObject,Sunless.Game.Entities.SunlessCharacter,System.Action)",
+      "Instruction": 79,
+      "English": " + Click for stacks of 10)",
+      "Deutsch": " + Klicken für Stapel zu 10)"
+    },
+    {
+      "Method": "System.Void Sunless.Game.UI.Combat.AttackBar::UpdateContent(System.Collections.Generic.List`1<Sunless.Game.Combat.AttackData>,System.Collections.Generic.List`1<Sunless.Game.Combat.CombatItemData>)",
+      "Instruction": 60,
+      "English": "Deck Weapon",
+      "Deutsch": "Deckgeschütz"
+    },
+    {
+      "Method": "System.Void Sunless.Game.UI.Combat.AttackBar::UpdateContent(System.Collections.Generic.List`1<Sunless.Game.Combat.AttackData>,System.Collections.Generic.List`1<Sunless.Game.Combat.CombatItemData>)",
+      "Instruction": 94,
+      "English": "Forward Weapon",
+      "Deutsch": "Bugwaffe"
+    },
+    {
+      "Method": "System.Void Sunless.Game.UI.Combat.AttackBar::UpdateContent(System.Collections.Generic.List`1<Sunless.Game.Combat.AttackData>,System.Collections.Generic.List`1<Sunless.Game.Combat.CombatItemData>)",
+      "Instruction": 128,
+      "English": "Aft Weapon",
+      "Deutsch": "Heckwaffe"
+    },
+    {
+      "Method": "System.Void Sunless.Game.UI.Combat.AttackButton::.ctor(UnityEngine.GameObject,Sunless.Game.UI.Combat.AttackButton/LockedSlotStatus,Sunless.Game.UI.Combat.AttackButton/SlotType)",
+      "Instruction": 32,
+      "English": "Forward",
+      "Deutsch": "Bug"
+    },
+    {
+      "Method": "System.Void Sunless.Game.UI.Combat.AttackButton::.ctor(UnityEngine.GameObject,Sunless.Game.UI.Combat.AttackButton/LockedSlotStatus,Sunless.Game.UI.Combat.AttackButton/SlotType)",
+      "Instruction": 37,
+      "English": "Aft",
+      "Deutsch": "Heck"
+    },
+    {
+      "Method": "System.Void Sunless.Game.UI.Combat.AttackButton::.ctor(UnityEngine.GameObject,Sunless.Game.UI.Combat.AttackButton/LockedSlotStatus,Sunless.Game.UI.Combat.AttackButton/SlotType)",
+      "Instruction": 41,
+      "English": " weapon (",
+      "Deutsch": "-Waffe ("
+    },
+    {
+      "Method": "System.Void Sunless.Game.UI.Combat.AttackButton::.ctor(UnityEngine.GameObject,Sunless.Game.UI.Combat.AttackButton/LockedSlotStatus,Sunless.Game.UI.Combat.AttackButton/SlotType)",
+      "Instruction": 51,
+      "English": "none equipped!",
+      "Deutsch": "nichts ausgerüstet!"
+    },
+    {
+      "Method": "System.Void Sunless.Game.UI.Combat.AttackButton::.ctor(UnityEngine.GameObject,Sunless.Game.UI.Combat.AttackButton/LockedSlotStatus,Sunless.Game.UI.Combat.AttackButton/SlotType)",
+      "Instruction": 56,
+      "English": "cannot be equipped on this ship",
+      "Deutsch": "auf diesem Schiff nicht ausrüstbar"
+    },
+    {
+      "Method": "System.Void Sunless.Game.UI.Combat.AttackButton::ToggleTooltip(System.Boolean)",
+      "Instruction": 4,
+      "English": " weapon ",
+      "Deutsch": "-Waffe "
+    },
+    {
+      "Method": "System.Void Sunless.Game.UI.Combat.HealthBar::Update(UnityEngine.Vector3,System.Int32,System.Int32,Sunless.Game.Utilities.BehaviourState,System.Boolean)",
+      "Instruction": 51,
+      "English": " (Crew: ",
+      "Deutsch": " (Mannschaft: "
+    },
+    {
+      "Method": "System.Void Sunless.Game.UI.Menus.KeybindingOptionPanel::ListenForKey()",
+      "Instruction": 15,
+      "English": "Press a new key for ",
+      "Deutsch": "Drücke eine neue Taste für "
+    },
+    {
+      "Method": "System.Void Sunless.Game.UI.Menus.KeybindingOptionPanel::ListenForAlt()",
+      "Instruction": 20,
+      "English": "Press a new key for ",
+      "Deutsch": "Drücke eine neue Taste für "
+    },
+    {
+      "Method": "System.Void Sunless.Game.UI.Menus.KeymappingPanel::WarnAndRestoreDefaults()",
+      "Instruction": 7,
+      "English": "Are you sure you want to restore the default control scheme?",
+      "Deutsch": "Möchtest du wirklich die Standardsteuerung wiederherstellen?"
+    },
+    {
+      "Method": "System.Void Sunless.Game.UI.Menus.MainMenu::.ctor(UnityEngine.GameObject,System.String,System.Collections.Generic.List`1<Sunless.Game.UI.Menus.MainMenu/ButtonData>,System.Boolean)",
+      "Instruction": 274,
+      "English": "Only available while docked.",
+      "Deutsch": "Nur im Hafen verfügbar."
+    },
+    {
+      "Method": "System.Void Sunless.Game.UI.Menus.MainMenu::WarnAboutMercifulMode()",
+      "Instruction": 8,
+      "English": "In Unforgiving Mode, Sunless Sea autosaves whenever you dock, and whenever you die. You may switch to Merciful Mode and save manually. This will remove your character's Invictus Token.",
+      "Deutsch": "Im Unerbittlichen Modus speichert Sunless Sea bei jedem Anlegen und bei jedem Tod automatisch. Du kannst in den Barmherzigen Modus wechseln und manuell speichern. Dadurch verliert deine Spielfigur die Invictus-Marke."
+    },
+    {
+      "Method": "System.Void Sunless.Game.UI.Menus.MainMenu::ExitToMainMenu()",
+      "Instruction": 8,
+      "English": "Are you sure you want to quit?",
+      "Deutsch": "Möchtest du wirklich aufhören?"
+    },
+    {
+      "Method": "System.Void Sunless.Game.UI.Menus.MainMenu::ConfirmNewgame()",
+      "Instruction": 8,
+      "English": "Are you sure?",
+      "Deutsch": "Bist du sicher?"
+    },
+    {
+      "Method": "System.Void Sunless.Game.UI.Menus.MainMenu::LoadGame()",
+      "Instruction": 5,
+      "English": "You must choose a game to load",
+      "Deutsch": "Du musst einen Spielstand zum Laden auswählen"
+    },
+    {
+      "Method": "System.Void Sunless.Game.UI.Menus.MainMenu::SaveGame()",
+      "Instruction": 44,
+      "English": "Are you sure you want to overwrite ",
+      "Deutsch": "Möchtest du wirklich überschreiben: "
+    },
+    {
+      "Method": "System.Void Sunless.Game.UI.Menus.MainMenu::ExitGame()",
+      "Instruction": 8,
+      "English": "Are you sure you want to quit?",
+      "Deutsch": "Möchtest du das Spiel wirklich beenden?"
+    },
+    {
+      "Method": "System.Void Sunless.Game.UI.Menus.MainMenu/UpdateButtonValues::.cctor()",
+      "Instruction": 0,
+      "English": "(Cannot connect)",
+      "Deutsch": "(Keine Verbindung)"
+    },
+    {
+      "Method": "System.Void Sunless.Game.UI.Menus.MainMenu/UpdateButtonValues::.cctor()",
+      "Instruction": 4,
+      "English": "New Stories Available!",
+      "Deutsch": "Neue Geschichten verfügbar!"
+    },
+    {
+      "Method": "System.Void Sunless.Game.ApplicationProviders.MenuProvider::DeleteSave(System.String)",
+      "Instruction": 14,
+      "English": "Confirm delete",
+      "Deutsch": "Löschen bestätigen"
+    },
+    {
+      "Method": "System.Void Sunless.Game.ApplicationProviders.MenuProvider::DeleteSave(System.String)",
+      "Instruction": 15,
+      "English": "Are you sure you want to delete this game?",
+      "Deutsch": "Möchtest du diesen Spielstand wirklich löschen?"
+    },
+    {
+      "Method": "System.Void Sunless.Game.ApplicationProviders.MenuProvider/<>c::<UpdateLocalData>b__28_0()",
+      "Instruction": 1,
+      "English": "The import failed, continue with your saved game or try again later.",
+      "Deutsch": "Der Import ist fehlgeschlagen. Setze deinen gespeicherten Spielstand fort oder versuche es später erneut."
+    },
+    {
+      "Method": "System.Void Sunless.Game.ApplicationProviders.NavigationProvider::RecoverFromCorruption()",
+      "Instruction": 10,
+      "English": "An update has moved your port!",
+      "Deutsch": "Ein Update hat deinen Hafen versetzt!"
+    },
+    {
+      "Method": "System.Void Sunless.Game.ApplicationProviders.NavigationProvider::RecoverFromCorruption()",
+      "Instruction": 11,
+      "English": "Sorry about that. Would you like to return to London?",
+      "Deutsch": "Verzeihung. Möchtest du nach London zurückkehren?"
+    },
+    {
+      "Method": "System.Void Sunless.Game.UI.Menus.Options.VideoOptionsPanel::WarnAboutResolution()",
+      "Instruction": 4,
+      "English": "The maximum recommended resolution is 1920x1080, you may experience issues above this size.",
+      "Deutsch": "Die höchste empfohlene Auflösung ist 1920x1080. Bei höheren Werten können Probleme auftreten."
+    },
+    {
+      "Method": "System.Void Sunless.Game.UI.Storylet.BranchPanel::.ctor(UnityEngine.GameObject,FailBetter.Core.Branch,Sunless.Game.Entities.SunlessCharacter)",
+      "Instruction": 84,
+      "English": "Go",
+      "Deutsch": "Weiter"
+    },
+    {
+      "Method": "System.Void Sunless.Game.Enums.ExoticEffectFunctions::.cctor()",
+      "Instruction": 47,
+      "English": "Who are you?",
+      "Deutsch": "Wer bist du?"
+    },
+    {
+      "Method": "System.String Sunless.Game.Entities.Geography.TileLabel::GetDescription()",
+      "Instruction": 0,
+      "English": "Discovered  ",
+      "Deutsch": "Entdeckt: "
+    },
+    {
+      "Method": "System.String Sunless.Game.Entities.Beasties.SpawnedEntity::GetDescription()",
+      "Instruction": 12,
+      "English": "Discovered a ",
+      "Deutsch": "Entdeckt: "
+    }
+  ],
+  "Scope": "Buchreiter, Laderaum, Waffenwerte, Tagebuch, Offiziere, Geschäfte, Werft, Anfänger-Mouseover, sämtliche Lade-/Hilfetipps sowie weitere sichtbare Logbuch-, Kampf-, Karten-, Hotkey-, Ergebnis- und Handelsmeldungen. Programmschlüssel unverändert."
+}
