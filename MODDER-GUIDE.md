@@ -97,3 +97,31 @@ darf nicht einfach an dieselbe Stelle geschrieben werden.
 
 Die genaue unterstützte Fassung und die Grenzen der bisherigen Prüfung
 stehen in `COMPATIBILITY.txt`.
+
+## Weiterverwendung und Quellen
+
+Eigene weitere Übersetzungen und Verbesserungen sind willkommen. Für die
+veröffentlichten eigenen Hilfsskripte und Anleitungen erlaubt das Projekt
+Verwendung, Bearbeitung und Weitergabe, soweit es eigene Rechte daran
+einräumen kann. Dabei „Unterzee Deutsch / ByteArchiv“ mit Projektlink nennen
+und eigene Änderungen kenntlich machen. Die genaue Abgrenzung steht in
+[REUSE-AND-CREDITS.txt](REUSE-AND-CREDITS.txt). Spielinhalte und abgeleitete
+Übersetzungstexte sind von dieser Werkzeugfreigabe nicht erfasst.
+
+Sunless Sea ist © und ™ Failbetter Games Limited. Dies ist ein inoffizielles
+Fanwerk. Die schöpferische Grundlage stammt vom Team hinter Sunless Sea und
+Zubmariner. Die deutsche Übersetzung dieses Projekts wurde mit generativer
+KI erstellt, ohne Übersetzungstexte oder Mitarbeit früherer Fanübersetzerteams
+zu übernehmen. Das ist keine vollständige menschliche Qualitätsprüfung.
+
+Hilfreiche offizielle Quellen:
+[Spielseite](https://www.failbettergames.com/games/sunless-sea),
+[Fan-Projekt-Richtlinien](https://www.failbettergames.com/fan-project-guidelines),
+[Modding-Demo](https://www.failbettergames.com/news/modding-sunless-sea-a-demo)
+und [Modding Guidelines](https://steamcommunity.com/app/304650/discussions/1/530649887200384697/).
+
+Die offiziellen Modding-Hinweise empfehlen, nur tatsächlich bearbeitete
+Objekte in ein Addon aufzunehmen und Konflikte mit anderen Mods zu beachten.
+Bei Ersetzungen müssen die ursprünglichen IDs erhalten bleiben; neue Objekte
+benötigen eigene IDs. Die Anleitung beschreibt das JSON-Addon-Verfahren,
+keine Freigabe unserer zusätzlichen Änderungen an Programmdateien.

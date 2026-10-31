@@ -1,0 +1,94 @@
+UNTERZEE DEUTSCH – DANKSAGUNG UND WEITERVERWENDUNG
+Stand: 31. Oktober 2026
+
+ORIGINALSPIEL
+
+Sunless Sea ist © und ™ Failbetter Games Limited.
+Dies ist ein inoffizielles Fanwerk.
+Spielseite: https://www.failbettergames.com/games/sunless-sea
+Studio: https://www.failbettergames.com/
+Fan-Projekt-Richtlinien: https://www.failbettergames.com/fan-project-guidelines
+
+Unser Dank gilt Failbetter Games und allen Beteiligten an Sunless Sea und
+Zubmariner. Die ungewöhnlichen Geschichten, die Sprache und die Gestaltung
+dieser Welt sind ihre schöpferische Leistung. Das kostenlose Fanprojekt soll
+Menschen mit Sprachbarrieren den Zugang erleichtern. Eine rechtmäßig
+erworbene Spielinstallation wird vorausgesetzt. Das Studio hat diese Mod
+weder beauftragt noch geprüft oder unterstützt.
+
+ENTSTEHUNG
+
+Organisation und Zusammenstellung: ByteArchiv / Unterzee Deutsch.
+Die deutsche Übersetzung wurde für dieses Projekt mit generativer KI erstellt
+und mit Glossarregeln und automatischen Prüfungen kontrolliert. Es wurden
+keine Übersetzungstexte früherer Fanübersetzungen übernommen, und frühere
+Fanübersetzerteams haben an dieser Fassung nicht mitgearbeitet. Damit ist
+keine vollständige menschliche Prüfung jeder Textstelle gemeint.
+Auch das Vorschaubild entstand mit generativer KI.
+
+Failbetter Games erklärt, seine eigenen Spiele ohne generative KI zu
+entwickeln. Diese Arbeitsweise respektieren wir. Die Verwendung von KI in
+unserer Übersetzung ist eine unabhängige Entscheidung des Fanprojekts und
+keine Aussage über die Zustimmung des Studios.
+
+FREIGABE DER EIGENEN WERKZEUGE UND ANLEITUNGEN
+
+Soweit das Projekt eigene Rechte daran einräumen kann, dürfen seine
+veröffentlichten eigenen Hilfsskripte und Anleitungen für andere
+Übersetzungsprojekte verwendet, vervielfältigt, verändert und weitergegeben
+werden. Voraussetzungen:
+
+1. In der Dokumentation oder den Credits „Unterzee Deutsch / ByteArchiv“
+   nennen und auf https://github.com/ByteArchiv-sys/unterzee-deutsch verlinken.
+2. Diesen Freigabehinweis bei weitergegebenen Kopien der Werkzeuge erhalten.
+3. Eigene Änderungen und die Verantwortung für die eigene Fassung deutlich
+   machen; keine Prüfung oder Unterstützung durch dieses Projekt behaupten.
+
+Die Freigabe gilt auch für die eigenen CMD-Startdateien sowie Install.ps1,
+Uninstall.ps1, Patch-UI.ps1 und Patch-Resources.ps1 im Paket 0.99.0. Sie ist
+keine Zusage, dass diese auf Deutsch und eine bestimmte Spielversion
+abgestimmten Skripte unverändert für jede Sprache oder Spielversion passen.
+Werkzeuge werden ohne Zusage von Fehlerfreiheit oder Eignung bereitgestellt.
+
+Empfohlene Nennung:
+„Verwendet Werkzeuge oder Dokumentation von Unterzee Deutsch / ByteArchiv:
+https://github.com/ByteArchiv-sys/unterzee-deutsch – für dieses Projekt angepasst.“
+
+ABGRENZUNG
+
+Diese Freigabe erfasst keine Rechte an Sunless Sea, Zubmariner, Originaltexten,
+Spielwelt, Figuren, Bildern, Musik, Marken oder daraus abgeleiteten
+Übersetzungstexten. Sie ist keine pauschale Lizenz für das gesamte Spieler-ZIP
+oder die Spielinhalte in den JSON-Dateien und Patchmanifesten. Für eigene
+Veröffentlichungen die Rechte der jeweiligen Rechteinhaber berücksichtigen.
+
+Die deutsche Übersetzung kann eine zusätzliche sprachliche Referenz sein.
+Für neue Übersetzungen sollten die englischen Originaltexte aus der eigenen
+Spielinstallation mitgeprüft werden. Unsere deutsche Fassung kann Fehler
+enthalten und ist kein Ersatz für diese Prüfung.
+
+Mono.Cecil stammt von Jb Evain und weiteren Mitwirkenden und steht unter der
+MIT-Lizenz. Seine bestehenden Copyright- und Lizenzhinweise müssen erhalten
+bleiben; siehe THIRD-PARTY-NOTICES.txt und https://github.com/jbevain/cecil.
+
+ENGLISH SUMMARY
+
+You may use, copy, modify and redistribute this project's own published
+helper scripts and documentation for other translation projects, to the
+extent that the project can grant rights in them. Credit "Unterzee Deutsch /
+ByteArchiv", link to https://github.com/ByteArchiv-sys/unterzee-deutsch,
+retain this permission notice and identify your changes. Do not imply that
+your adaptation is endorsed or tested by this project. No warranty of
+correctness or fitness for a particular purpose is provided.
+
+This permission includes the project's CMD launchers and Install.ps1,
+Uninstall.ps1, Patch-UI.ps1 and Patch-Resources.ps1 in version 0.99.0.
+It does not grant rights in Failbetter's game, assets, trademarks, source
+texts or translations derived from those texts. Mono.Cecil retains its
+separate MIT license and attribution requirements.
+
+Sunless Sea is © and ™ Failbetter Games Limited. This is an unofficial fan
+work. The German translation and cover image were made using generative AI.
+No translation text or collaboration from earlier fan translation teams was
+used. Failbetter states that it develops its own games without generative AI;
+this fan project's use of AI is independent and does not imply endorsement.

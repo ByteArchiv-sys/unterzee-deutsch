@@ -2,6 +2,10 @@
 
 Inoffizielle deutsche Fanübersetzung für Sunless Sea: Zubmariner.
 
+**[Sunless Sea](https://www.failbettergames.com/games/sunless-sea) ist © und ™
+[Failbetter Games Limited](https://www.failbettergames.com/).
+Dies ist ein inoffizielles Fanwerk.**
+
 Willkommen auf der Unterzee! Diese Übersetzung soll die ungewöhnlichen
 Geschichten von Sunless Sea auch Menschen zugänglich machen, denen das
 anspruchsvolle Englisch bisher im Weg stand.
@@ -76,13 +80,57 @@ in `MODDER-GUIDE.md`.
 
 ## Entstehung und Rechte
 
-Die Übersetzung entstand mit Unterstützung generativer Sprachmodelle und
-wurde mit Glossarregeln und automatischen Prüfungen kontrolliert.
-Die Vorschaubild-Grafik wurde mit einem generativen Bildmodell erstellt.
+Unser Dank gilt Failbetter Games und allen Menschen, die Sunless Sea und
+Zubmariner geschaffen haben. Ihre Geschichten, Sprache, Bilder und Musik
+machen diese außergewöhnliche Welt aus. Wir möchten dazu beitragen, dass
+auch Menschen mit Sprachbarrieren sie entdecken können. Unterstützt das
+Original mit einer rechtmäßig erworbenen Ausgabe des Spiels.
 
-Inoffizielles, nichtkommerzielles Fanprojekt; weder mit Failbetter Games
-verbunden noch von Failbetter Games unterstützt. Eine rechtmäßig erworbene
-Spielinstallation wird vorausgesetzt. Spielwelt, Figuren und Originaltexte
-gehören ihren jeweiligen Rechteinhabern. Für Spieltexte und Übersetzungen
-wird hier keine pauschale Open-Source-Lizenz erteilt. Die Lizenz der
-mitgelieferten Drittsoftware steht in `THIRD-PARTY-NOTICES.txt`.
+Die deutsche Übersetzung wurde für dieses Projekt mit generativer KI erstellt
+und mit Glossarregeln und automatischen Prüfungen kontrolliert. Es wurden
+keine Übersetzungstexte früherer Fanübersetzungen übernommen; an dieser
+Fassung waren keine Teams früherer Fanübersetzungen beteiligt. Organisation
+und Zusammenstellung: **ByteArchiv / Unterzee Deutsch**. Eine vollständige
+menschliche Prüfung jeder Textstelle wird damit nicht behauptet.
+Die Vorschaubild-Grafik wurde ebenfalls mit generativer KI erstellt.
+
+Failbetter Games beschreibt seine eigene Spieleentwicklung als frei von
+generativer KI. Wir respektieren diese Arbeitsweise. Unser KI-Einsatz ist
+eine unabhängige Entscheidung dieses Fanprojekts und keine Aussage über die
+Arbeitsweise oder Zustimmung des Studios. Wir hoffen, dass die Übersetzung
+mehr Menschen Freude an diesem großartigen Spiel ermöglicht; Rückmeldungen
+helfen, seinem besonderen Ton besser gerecht zu werden.
+
+Unterzee Deutsch ist kostenlos und nichtkommerziell, weder mit Failbetter
+Games verbunden noch vom Studio geprüft, beauftragt oder unterstützt.
+Spiel, Erweiterung, Originaltexte, Welt, Figuren, Bilder, Musik und Marken
+bleiben ihren jeweiligen Rechteinhabern zugeordnet. Für Übersetzungsfehler
+und Probleme mit der Mod bitte die
+[Projekt-Issues](https://github.com/ByteArchiv-sys/unterzee-deutsch/issues) nutzen.
+
+Offizielle Informationen:
+[Sunless Sea](https://www.failbettergames.com/games/sunless-sea),
+[Failbetter Games](https://www.failbettergames.com/),
+[Fan-Projekt-Richtlinien](https://www.failbettergames.com/fan-project-guidelines)
+und [Modding-Anleitung](https://www.failbettergames.com/news/modding-sunless-sea-a-demo).
+
+## Werkzeuge weiterverwenden
+
+Andere Übersetzungsprojekte sind willkommen: Unsere veröffentlichten eigenen
+Hilfsskripte und Anleitungen dürfen verwendet, angepasst und weitergegeben
+werden, soweit wir daran eigene Rechte einräumen können. Voraussetzung sind
+die Nennung **„Unterzee Deutsch / ByteArchiv“**, ein Link zu diesem Projekt
+und die Kennzeichnung eigener Änderungen. Ein geeigneter Hinweis lautet:
+
+> Verwendet Werkzeuge oder Dokumentation von Unterzee Deutsch / ByteArchiv:
+> https://github.com/ByteArchiv-sys/unterzee-deutsch – für dieses Projekt angepasst.
+
+Diese Freigabe umfasst unsere eigenen Installer- und Patchskripte im
+Downloadpaket. Derzeit gibt es die dort enthaltenen Skripte und die
+Projektanleitungen; ein allgemeines Übersetzer-Toolkit wird nicht als fertig
+angeboten. Details stehen in [REUSE-AND-CREDITS.txt](REUSE-AND-CREDITS.txt).
+
+Die Freigabe erteilt keine Rechte an Failbetters Spielinhalten, Marken oder
+abgeleiteten Übersetzungstexten. Diese sind keine pauschal frei lizenzierten
+Quelldaten. Mono.Cecil bleibt unter seiner eigenen MIT-Lizenz; siehe
+[THIRD-PARTY-NOTICES.txt](THIRD-PARTY-NOTICES.txt).
