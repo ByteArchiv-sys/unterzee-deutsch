@@ -1,0 +1,103 @@
+{
+  "Name": "Unterzee-Deutsch-Start",
+  "DisplayName": "Unterzee Deutsch",
+  "Version": "0.99.0",
+  "GameVersion": "3.0.0.31",
+  "AddonFiles": [
+    {
+      "Path": "encyclopaedia/CombatAttacks.json",
+      "SHA256": "A12A1923BAA77AE18FD29639DB295E1BE9B8F229F69B953BB76DEF8487506B38"
+    },
+    {
+      "Path": "encyclopaedia/CombatItems.json",
+      "SHA256": "46535DD857C5CECD02E17B7830F3857A4CE22C05B9523991D262C17747833C96"
+    },
+    {
+      "Path": "encyclopaedia/SpawnedEntities.json",
+      "SHA256": "8215E96E40339B7F0163EEE199D3A2BE3C84D98E53B38DE99C04413EE5082DD0"
+    },
+    {
+      "Path": "encyclopaedia/Tutorials.json",
+      "SHA256": "FE938864C83F6BE5C739879C39D62218B3514C054385060CE60777A54EA00760"
+    },
+    {
+      "Path": "entities/areas.json",
+      "SHA256": "D53B4D7EDA20ACF3E565F5837B6FD77BE64DD8D30D1822D1928A7C45D001E12C"
+    },
+    {
+      "Path": "entities/events.json",
+      "SHA256": "B2E90CC7B786855C9CBBCC0A48B447912B51946FCB2C0B877D0C62C26EB26260"
+    },
+    {
+      "Path": "entities/exchanges.json",
+      "SHA256": "85A65E53193CCE77C8359D136A65072621737A4A732B7BE0C44A1930B84972FC"
+    },
+    {
+      "Path": "entities/personas.json",
+      "SHA256": "B02FC50856C10944617B848E4F9A2933A9B25171030DE962A1842611882F3CC9"
+    },
+    {
+      "Path": "entities/qualities.json",
+      "SHA256": "99C81D158FF4B55B996D44BA5AB37FD90FEC4B3CD18DCB6A1A388E4AD04DFD3A"
+    },
+    {
+      "Path": "geography/Tiles.json",
+      "SHA256": "7C6E84B404B086F17DE6F7F924B881D30D1E0928D0DAE734F1BD9A32422D3B93"
+    }
+  ],
+  "UI": {
+    "RelativeGameDll": "Sunless Sea_Data/Managed/Sunless.Game.dll",
+    "SourceSHA256": "E40189302338B9BDC879B8474107C5E08D66A706C6A0DCD89250106066D0FDF4",
+    "PatchedSHA256": "262C0232B93DBEC4D1814892FB70E8B76C842289CDBBF239CB952FC5CAC7D071",
+    "PatchManifestPath": "ui/ui-manifest.json",
+    "CecilPath": "ui/Mono.Cecil.dll",
+    "PatchHelperPath": "ui/Patch-UI.ps1",
+    "ToolFiles": [
+      {
+        "Path": "ui/ui-manifest.json",
+        "SHA256": "38CEC21F5CC230DC36015580F5B751569E2D6CCFAF46BB3F8F32D76533C5C1D6"
+      },
+      {
+        "Path": "ui/Mono.Cecil.dll",
+        "SHA256": "C8D6A557BC7C827657D030FA5953B503C3143993B51F7700967145A7305309F4"
+      },
+      {
+        "Path": "ui/Patch-UI.ps1",
+        "SHA256": "825B847115BD8AA5A5D030E8683E8A62D52F643D9B93A86A4C8ED4CA44D43E91"
+      }
+    ]
+  },
+  "Core": {
+    "RelativeGameDll": "Sunless Sea_Data/Managed/FailBetter.Core.dll",
+    "SourceSHA256": "38086BA0C8C86BE0C9DE596048FE64D19D2A3B987A4ED056300225DFA9010A24",
+    "PatchedSHA256": "3652AE21DCE681A992AB212A9484AC686F667BDD408AB4A058D2BA95DD42AC0B",
+    "PatchManifestPath": "core/core-manifest.json",
+    "CecilPath": "ui/Mono.Cecil.dll",
+    "PatchHelperPath": "ui/Patch-UI.ps1",
+    "ToolFiles": [
+      {
+        "Path": "core/core-manifest.json",
+        "SHA256": "C40D4F1C1A5903763226B0139F9921DE59B0D2A33DC5939F990CE26EB7FE9691"
+      }
+    ]
+  },
+  "Resources": {
+    "RelativeGamePath": "Sunless Sea_Data/resources.assets",
+    "SourceSHA256": "E596CAB37FE8F2192859D02E6EAE00ED67D9FA36EFEF6DCE3C49EC59381D0193",
+    "PatchedSHA256": "6DB79296539F49741832DB7B5DB3E59A583198DD727B7E75329DE38FF1B21757",
+    "SourceLength": 25834600,
+    "PatchCount": 6,
+    "PatchSpecPath": "resources/resource-patch-spec.json",
+    "PatchHelperPath": "resources/Patch-Resources.ps1",
+    "ToolFiles": [
+      {
+        "Path": "resources/resource-patch-spec.json",
+        "SHA256": "BFC6850726C0F73B8873C380E22E9467C3915A9507E51440458CB161F1689A44"
+      },
+      {
+        "Path": "resources/Patch-Resources.ps1",
+        "SHA256": "1F1228417B39BF93EFD00C195B0312F4FD69BE4EFFAA9BA0CD34EF91B2950FFF"
+      }
+    ]
+  }
+}
