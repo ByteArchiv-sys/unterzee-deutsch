@@ -1,0 +1,192 @@
+{
+  "Name": "Unterzee-Deutsch-Core",
+  "Version": "0.4.0",
+  "GameVersion": "3.0.0.31",
+  "SourceSHA256": "38086BA0C8C86BE0C9DE596048FE64D19D2A3B987A4ED056300225DFA9010A24",
+  "PatchedSHA256": "3652AE21DCE681A992AB212A9484AC686F667BDD408AB4A058D2BA95DD42AC0B",
+  "Verification": {
+    "Types": 318,
+    "Methods": 2165,
+    "Instructions": 17557,
+    "ChangedStringLiterals": 29,
+    "UnchangedResources": 0,
+    "UnchangedAssemblyReferences": true
+  },
+  "Changes": [
+    {
+      "Method": "System.Void FailBetter.Core.Result.QualityChangeMessages.QualityExplicitlySetMessage::.ctor(FailBetter.Core.Quality,System.Int32)",
+      "Instruction": 34,
+      "English": "You now have ",
+      "Deutsch": "Du besitzt nun "
+    },
+    {
+      "Method": "System.Void FailBetter.Core.Result.QualityChangeMessages.QualityExplicitlySetMessage::.ctor(FailBetter.Core.Quality,System.Int32)",
+      "Instruction": 43,
+      "English": " of this: '",
+      "Deutsch": " davon: „"
+    },
+    {
+      "Method": "System.Void FailBetter.Core.Result.QualityChangeMessages.QualityExplicitlySetMessage::.ctor(FailBetter.Core.Quality,System.Int32)",
+      "Instruction": 52,
+      "English": "'",
+      "Deutsch": "“"
+    },
+    {
+      "Method": "System.Void FailBetter.Core.Result.QualityChangeMessages.QualityExplicitlySetMessage::.ctor(FailBetter.Core.Quality,System.Int32)",
+      "Instruction": 62,
+      "English": "You have a new Accomplishment...",
+      "Deutsch": "Du hast eine neue Errungenschaft ..."
+    },
+    {
+      "Method": "System.Void FailBetter.Core.Result.QualityChangeMessages.QualityExplicitlySetMessage::.ctor(FailBetter.Core.Quality,System.Int32)",
+      "Instruction": 74,
+      "English": "An occurrence! Your '",
+      "Deutsch": "Ein Ereignis! Dein Merkmal „"
+    },
+    {
+      "Method": "System.Void FailBetter.Core.Result.QualityChangeMessages.QualityExplicitlySetMessage::.ctor(FailBetter.Core.Quality,System.Int32)",
+      "Instruction": 83,
+      "English": "' Quality is now ",
+      "Deutsch": "“ steht nun auf "
+    },
+    {
+      "Method": "System.Void FailBetter.Core.Result.QualityChangeMessages.QualityExplicitlySetMessage::.ctor(FailBetter.Core.Quality,System.Int32)",
+      "Instruction": 103,
+      "English": "'",
+      "Deutsch": "„"
+    },
+    {
+      "Method": "System.Void FailBetter.Core.Result.QualityChangeMessages.QualityExplicitlySetMessage::.ctor(FailBetter.Core.Quality,System.Int32)",
+      "Instruction": 106,
+      "English": "' has been reset: a conclusion, or a new beginning?",
+      "Deutsch": "“ wurde zurückgesetzt: ein Ende oder ein neuer Anfang?"
+    },
+    {
+      "Method": "System.Void FailBetter.Core.Result.QualityChangeMessages.QualityExplicitlySetMessage::.ctor(FailBetter.Core.Quality,System.Int32)",
+      "Instruction": 115,
+      "English": "You no longer have any of this: '",
+      "Deutsch": "Davon besitzt du nichts mehr: „"
+    },
+    {
+      "Method": "System.Void FailBetter.Core.Result.QualityChangeMessages.QualityExplicitlySetMessage::.ctor(FailBetter.Core.Quality,System.Int32)",
+      "Instruction": 118,
+      "English": "'",
+      "Deutsch": "“"
+    },
+    {
+      "Method": "System.Void FailBetter.Core.Result.QualityChangeMessages.QualityExplicitlySetMessage::.ctor(FailBetter.Core.Quality,System.Int32)",
+      "Instruction": 123,
+      "English": "Your '",
+      "Deutsch": "Dein Merkmal „"
+    },
+    {
+      "Method": "System.Void FailBetter.Core.Result.QualityChangeMessages.QualityExplicitlySetMessage::.ctor(FailBetter.Core.Quality,System.Int32)",
+      "Instruction": 126,
+      "English": "' Quality has gone!",
+      "Deutsch": "“ ist verschwunden!"
+    },
+    {
+      "Method": "System.Void FailBetter.Core.Result.QualityChangeMessages.QualityExplicitlySetMessage::.ctor(FailBetter.Core.Quality,System.Int32)",
+      "Instruction": 136,
+      "English": "[This is a metaquality! It will appear on your user profile, and may unlock new starting options in other worlds.]",
+      "Deutsch": "[Dies ist ein Meta-Merkmal! Es erscheint in deinem Benutzerprofil und kann neue Startmöglichkeiten in anderen Welten freischalten.]"
+    },
+    {
+      "Method": "System.Void FailBetter.Core.Result.QualityChangeMessages.StandardQualityChangeMessage::.ctor(FailBetter.Core.Quality,System.Int32,System.Int32)",
+      "Instruction": 34,
+      "English": "{0} remains unchanged, at {1}",
+      "Deutsch": "{0} bleibt unverändert auf {1}"
+    },
+    {
+      "Method": "System.Void FailBetter.Core.Result.QualityChangeMessages.StandardQualityChangeMessage::.ctor(FailBetter.Core.Quality,System.Int32,System.Int32)",
+      "Instruction": 42,
+      "English": "{0} +0 (now {1})",
+      "Deutsch": "{0} +0 (nun {1})"
+    },
+    {
+      "Method": "System.Void FailBetter.Core.Result.QualityChangeMessages.StandardQualityChangeMessage::.ctor(FailBetter.Core.Quality,System.Int32,System.Int32)",
+      "Instruction": 56,
+      "English": "lost ",
+      "Deutsch": "verloren "
+    },
+    {
+      "Method": "System.Void FailBetter.Core.Result.QualityChangeMessages.StandardQualityChangeMessage::.ctor(FailBetter.Core.Quality,System.Int32,System.Int32)",
+      "Instruction": 65,
+      "English": "gained ",
+      "Deutsch": "erhalten "
+    },
+    {
+      "Method": "System.Void FailBetter.Core.Result.QualityChangeMessages.StandardQualityChangeMessage::.ctor(FailBetter.Core.Quality,System.Int32,System.Int32)",
+      "Instruction": 71,
+      "English": "You've {0} x {1} (new total {2}).",
+      "Deutsch": "Du hast {0}: {1} x (neuer Gesamtwert {2})."
+    },
+    {
+      "Method": "System.Void FailBetter.Core.Result.QualityChangeMessages.StandardQualityChangeMessage::.ctor(FailBetter.Core.Quality,System.Int32,System.Int32)",
+      "Instruction": 96,
+      "English": "You now have ",
+      "Deutsch": "Du besitzt nun "
+    },
+    {
+      "Method": "System.Void FailBetter.Core.Result.QualityChangeMessages.StandardQualityChangeMessage::.ctor(FailBetter.Core.Quality,System.Int32,System.Int32)",
+      "Instruction": 165,
+      "English": "{0} {1} (now {2})",
+      "Deutsch": "{0} {1} (nun {2})"
+    },
+    {
+      "Method": "System.Void FailBetter.Core.Result.QualityChangeMessages.StandardQualityChangeMessage::.ctor(FailBetter.Core.Quality,System.Int32,System.Int32)",
+      "Instruction": 181,
+      "English": "[This is a metaquality! It will appear on your user profile, and may unlock new starting options in other worlds.]",
+      "Deutsch": "[Dies ist ein Meta-Merkmal! Es erscheint in deinem Benutzerprofil und kann neue Startmöglichkeiten in anderen Welten freischalten.]"
+    },
+    {
+      "Method": "System.Void FailBetter.Core.Help.ChallengeHelpTooltip::.ctor()",
+      "Instruction": 1,
+      "English": "The higher the Quality, the higher the chance of success.",
+      "Deutsch": "Je höher das Merkmal, desto größer die Erfolgschance."
+    },
+    {
+      "Method": "System.Void FailBetter.Core.Result.DifficultyRollSuccessMessage::.ctor(FailBetter.Core.Quality,System.Int32,System.Int32,FailBetter.Core.Character)",
+      "Instruction": 30,
+      "English": "(Risky challenges mean you learn more.)",
+      "Deutsch": "(Bei riskanten Herausforderungen lernst du mehr.)"
+    },
+    {
+      "Method": "System.Void FailBetter.Core.Result.DifficultyRollSuccessMessage::.ctor(FailBetter.Core.Quality,System.Int32,System.Int32,FailBetter.Core.Character)",
+      "Instruction": 43,
+      "English": "(Simple challenges mean you don't learn so much.)",
+      "Deutsch": "(Bei einfachen Herausforderungen lernst du nicht so viel.)"
+    },
+    {
+      "Method": "System.Void FailBetter.Core.Result.DifficultyRollSuccessMessage::.ctor(FailBetter.Core.Quality,System.Int32,System.Int32,FailBetter.Core.Character)",
+      "Instruction": 49,
+      "English": "You succeeded in a {0} challenge! {1} {2}",
+      "Deutsch": "Du hast eine {0}-Herausforderung bestanden! {1} {2}"
+    },
+    {
+      "Method": "System.Void FailBetter.Core.Result.DifficultyRollFailureMessage::.ctor(FailBetter.Core.Quality,System.Int32,System.Int32,FailBetter.Core.Character)",
+      "Instruction": 29,
+      "English": " failed in a challenge! Try again and you may have better luck...",
+      "Deutsch": " ist bei einer Herausforderung gescheitert! Versuche es erneut – vielleicht hast du dann mehr Glück ..."
+    },
+    {
+      "Method": "System.Void FailBetter.Core.Result.DifficultyRollFailureMessage::.ctor(FailBetter.Core.Quality,System.Int32,System.Int32,FailBetter.Core.Character)",
+      "Instruction": 53,
+      "English": "(When you try a challenge that's difficult for you, you learn more even when you fail) ",
+      "Deutsch": "(Bei einer für dich schwierigen Herausforderung lernst du selbst aus einem Fehlschlag mehr.) "
+    },
+    {
+      "Method": "System.Void FailBetter.Core.Result.DifficultyRollFailureMessage::.ctor(FailBetter.Core.Quality,System.Int32,System.Int32,FailBetter.Core.Character)",
+      "Instruction": 66,
+      "English": "(This challenge was old territory for you - you won't learn so much.) ",
+      "Deutsch": "(Diese Herausforderung war für dich nichts Neues – du wirst nicht so viel daraus lernen.) "
+    },
+    {
+      "Method": "System.Void FailBetter.Core.Result.DifficultyRollFailureMessage::.ctor(FailBetter.Core.Quality,System.Int32,System.Int32,FailBetter.Core.Character)",
+      "Instruction": 82,
+      "English": " failed in a challenge! ",
+      "Deutsch": " ist bei einer Herausforderung gescheitert! "
+    }
+  ],
+  "Scope": "Generische sichtbare Qualitäts- und Ergebnismeldungen im Logbuch und in Story-Ausgängen."
+}
