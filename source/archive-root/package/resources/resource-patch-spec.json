@@ -1,0 +1,60 @@
+﻿{
+  "schemaVersion": 1,
+  "relativePath": "Sunless Sea_Data/resources.assets",
+  "sourceSHA256": "E596CAB37FE8F2192859D02E6EAE00ED67D9FA36EFEF6DCE3C49EC59381D0193",
+  "patchedSHA256": "6DB79296539F49741832DB7B5DB3E59A583198DD727B7E75329DE38FF1B21757",
+  "sourceLength": 25834600,
+  "encoding": "ASCII",
+  "mode": "exact-offset-equal-byte-length",
+  "patches": [
+    {
+      "offset": 25765940,
+      "from": "LOG BOOK",
+      "to": "LOGBUCH ",
+      "bytes": 8,
+      "sourceOccurrences": 1,
+      "note": "Sichtbare Überschrift links unten; Leerzeichen dient ausschließlich der Längengleichheit."
+    },
+    {
+      "offset": 25598820,
+      "from": "Weapon Statistics",
+      "to": "Waffenwerte      ",
+      "bytes": 17,
+      "sourceOccurrences": 1,
+      "note": "Sichtbare Überschrift im Laderaum; sechs abschließende Füllzeichen."
+    },
+    {
+      "offset": 25602804,
+      "from": "SHIPYARD",
+      "to": "WERFT   ",
+      "bytes": 8,
+      "sourceOccurrences": 1,
+      "note": "Sichtbare Werftüberschrift; drei abschließende Füllzeichen."
+    },
+    {
+      "offset": 25615924,
+      "from": "TRADE",
+      "to": "TAUS.",
+      "bytes": 5,
+      "sourceOccurrences": 2,
+      "note": "Sichtbarer Werftknopf; punktierte Kurzform von 'Tauschen'. Der zweite TRADE-Treffer an Offset 8370421 gehört zu eingebetteten Datensätzen ('LICENSED FOR MORTAL TRADE') und bleibt unangetastet."
+    },
+    {
+      "offset": 25788436,
+      "from": "Choose your name",
+      "to": "Gib deinen Namen",
+      "bytes": 16,
+      "sourceOccurrences": 1,
+      "note": "Eindeutiger Platzhalter im Namensfeld der Kapitänserstellung; als Bestandteil des GameObjects NameAndAvatarSelection verifiziert."
+    },
+    {
+      "offset": 25621668,
+      "from": "ACCEPT",
+      "to": "FERTIG",
+      "bytes": 6,
+      "sourceOccurrences": 3,
+      "note": "Nur der Text des Bestätigungsknopfs im GameObject NameAndAvatarSelection; die anderen beiden ACCEPT-Treffer gehören zu eingebetteten Ereignisdaten und dem Vermächtnisdialog."
+    }
+  ],
+  "safety": "Vor und nach dem Patch muss die vollständige Dateiprüfsumme geprüft werden. Keine Trefferzahl- oder Such-und-Ersetz-Patches; ausschließlich die sechs angegebenen Offsets. Die echte Spieldatei wurde bei der Erstellung nicht verändert."
+}
